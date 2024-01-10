@@ -1,0 +1,6 @@
+.my-projects {
+  position: relative;
+  background-color: blueviolet;
+  z-index: 999;
+  min-height: 100dvh;
+}

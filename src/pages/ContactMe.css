@@ -1,0 +1,6 @@
+.contact-me {
+  position: relative;
+  background-color: rgb(241, 63, 18);
+  z-index: 999;
+  min-height: 100dvh;
+}

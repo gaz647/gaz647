@@ -3,3 +3,15 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: #12161a;
+  font-family: Ubuntu, Roboto, Arial;
+  min-height: 100dvh;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1320px;
+  padding: 0 0.5rem;
+}
