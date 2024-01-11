@@ -1,14 +1,13 @@
 .tech-stack {
   position: sticky;
-  top: 0;
+  top: -25dvh;
+  padding: 25dvh 0;
   background-color: rgb(31, 31, 31);
   width: 100%;
-  min-height: 100dvh;
-  /* position: relative; */
+  min-height: 150dvh;
   z-index: 999;
   display: flex;
   justify-content: center;
-  /* align-items: center; */
   align-content: center;
   flex-wrap: wrap;
 }
