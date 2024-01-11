@@ -1,0 +1,44 @@
+.project-container {
+  border: solid 2px black;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.slider-container {
+  max-width: 300px;
+  border: 5px solid lime;
+  overflow: hidden;
+  -webkit-mask: linear-gradient(
+    90deg,
+    transparent,
+    white 20%,
+    white 80%,
+    transparent
+  );
+  mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+}
+
+.slider-slider {
+  width: fit-content;
+  padding-block: 1rem;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 1rem;
+  animation: slide 10s linear infinite;
+}
+
+.one-stack {
+  /* margin: 0 0.5rem; */
+  padding: 0.5rem 0.75rem;
+  border: solid 2px black;
+  border-radius: 10px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+@keyframes slide {
+  to {
+    transform: translate(calc(-50% - 0.5rem));
+  }
+}
