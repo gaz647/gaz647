@@ -1,5 +1,7 @@
 import "./Project.css";
 import { v4 as uuidv4 } from "uuid";
+import { VscGithubInverted } from "react-icons/vsc";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 interface StackSliderProps {
   stack: string[];
@@ -25,16 +27,45 @@ interface ProjectProps {
   projectData: {
     name: string;
     image: string;
+    bio: string;
+    github: string;
+    website: string;
     stack: string[];
   };
+  position: "left" | "right";
 }
 
-const Project: React.FC<ProjectProps> = ({ projectData }) => {
+const Project: React.FC<ProjectProps> = ({ projectData, position }) => {
   return (
-    <div className="project-container">
-      <img src="" alt="" />
-      <h2>{projectData.name}</h2>
-      <StackSlider stack={projectData.stack} />
+    <div
+      className={`project-container ${
+        position === "left" ? "container-left" : "container-right"
+      }`}
+    >
+      <div className="project-left-container">
+        <img
+          className="project-image"
+          src={projectData.image}
+          alt="project-image"
+        />
+      </div>
+      <div className="project-right-container">
+        <div className="project-name">{projectData.name}</div>
+        <div className="project-links-container">
+          <a className="project-link" href={projectData.github} target="_blank">
+            <VscGithubInverted />
+          </a>
+          <a
+            className="project-link"
+            href={projectData.website}
+            target="_blank"
+          >
+            <FaExternalLinkAlt />
+          </a>
+        </div>
+        <div className="project-bio">{projectData.bio}</div>
+        <StackSlider stack={projectData.stack} />
+      </div>
     </div>
   );
 };

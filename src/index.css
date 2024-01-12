@@ -6,7 +6,6 @@
 
 body {
   background-color: #12161a;
-  background-color: rebeccapurple;
   font-family: Ubuntu, Roboto, Arial;
   min-height: 100dvh;
 }
@@ -14,6 +13,6 @@ body {
 .wrapper {
   width: 1320px;
   max-width: 100%;
-  padding: 0 0.5rem;
+  /* padding: 0 0.5rem; */
   margin: 0 auto;
 }

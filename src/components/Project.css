@@ -1,31 +1,84 @@
 .project-container {
-  border: solid 2px black;
-  border-radius: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 3rem 0;
+  background-color: rgb(248, 248, 248);
+  box-shadow: 0px 0px 5px rgb(141, 141, 141);
+}
+
+.project-left-container,
+.project-right-container {
+  width: 100%;
+}
+
+.project-left-container {
+}
+
+.project-right-container {
   padding: 1rem;
 }
 
+.container-left {
+  margin-right: auto;
+}
+
+.container-right {
+  margin-left: auto;
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+}
+
+.project-name {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+  margin: 0.5rem auto;
+}
+
+.project-links-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.project-link {
+  margin: 0.5rem;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.project-bio {
+  padding: 0.5rem 0 1.5rem 0;
+  line-height: 1.5rem;
+  text-align: center;
+}
+
 .slider-container {
-  max-width: 300px;
-  border: 5px solid lime;
+  width: 100%;
+  border: 1px solid rgb(172, 172, 172);
   overflow: hidden;
   -webkit-mask: linear-gradient(
     90deg,
     transparent,
-    white 20%,
-    white 80%,
+    white 10%,
+    white 90%,
     transparent
   );
-  mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+  mask: linear-gradient(90deg, transparent, white 10%, white 90%, transparent);
 }
 
 .slider-slider {
   width: fit-content;
-  padding-block: 1rem;
+  padding-block: 0.5rem;
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
   gap: 1rem;
-  animation: slide 10s linear infinite;
+  animation: slide 20s linear infinite;
 }
 
 .one-stack {

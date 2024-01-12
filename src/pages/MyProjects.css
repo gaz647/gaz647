@@ -1,6 +1,13 @@
 .my-projects {
   position: relative;
-  background-color: blueviolet;
+  background-color: rgb(240, 240, 240);
   z-index: 999;
   min-height: 100dvh;
+  padding: 2rem 0.5rem;
+}
+
+.my-projects-heading {
+  font-size: 2rem;
+  text-align: center;
+  line-height: 3rem;
 }
