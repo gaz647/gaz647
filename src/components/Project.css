@@ -88,7 +88,7 @@
   flex-wrap: nowrap;
   align-items: center;
   gap: 1rem;
-  animation: slide 20s linear infinite;
+  animation: slide 10s linear infinite;
 }
 
 .one-stack {
