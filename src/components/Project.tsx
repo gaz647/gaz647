@@ -28,18 +28,19 @@ interface ProjectProps {
     name: string;
     image: string;
     bio: string;
-    github: string;
     website: string;
+    github: string;
+    wakaTimeImage: string;
     stack: string[];
+    position: string;
   };
-  position: "left" | "right";
 }
 
-const Project: React.FC<ProjectProps> = ({ projectData, position }) => {
+const Project: React.FC<ProjectProps> = ({ projectData }) => {
   return (
     <div
       className={`project-container ${
-        position === "left" ? "container-left" : "container-right"
+        projectData.position === "left" ? "container-left" : "container-right"
       }`}
     >
       <div className="project-left-container">
@@ -50,7 +51,14 @@ const Project: React.FC<ProjectProps> = ({ projectData, position }) => {
         />
       </div>
       <div className="project-right-container">
-        <div className="project-name">{projectData.name}</div>
+        <div className="project-waka-time-container">
+          <div className="project-name">{projectData.name}</div>
+          <img
+            className="project-waka-time"
+            src={projectData.wakaTimeImage}
+            alt="waka-time-project-badge"
+          />
+        </div>
         <div className="project-links-container">
           <a className="project-link" href={projectData.github} target="_blank">
             <VscGithubInverted />
