@@ -2,8 +2,12 @@
   position: relative;
   background-color: rgb(240, 240, 240);
   z-index: 999;
-  min-height: 100dvh;
-  padding: 2rem 0.5rem;
+  min-height: 150dvh;
+  padding: 25dvh 0;
+  /* padding: 2rem 0.5rem; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .my-projects-heading {

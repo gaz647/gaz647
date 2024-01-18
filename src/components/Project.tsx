@@ -27,16 +27,18 @@ interface ProjectProps {
   projectData: {
     name: string;
     image: string;
-    bio: string;
+    bio_en: string;
+    bio_cs: string;
     website: string;
     github: string;
     wakaTimeImage: string;
     stack: string[];
     position: string;
   };
+  language: string;
 }
 
-const Project: React.FC<ProjectProps> = ({ projectData }) => {
+const Project: React.FC<ProjectProps> = ({ projectData, language }) => {
   return (
     <div
       className={`project-container ${
@@ -71,7 +73,9 @@ const Project: React.FC<ProjectProps> = ({ projectData }) => {
             <FaExternalLinkAlt />
           </a>
         </div>
-        <div className="project-bio">{projectData.bio}</div>
+        <div className="project-bio">
+          {language === "en" ? projectData.bio_en : projectData.bio_cs}
+        </div>
         <StackSlider stack={projectData.stack} />
       </div>
     </div>

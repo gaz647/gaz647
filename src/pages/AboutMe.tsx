@@ -2,9 +2,9 @@ import "./AboutMe.css";
 import profileImage from "../images/man-gradient.png";
 import { FaHeart } from "react-icons/fa";
 
-const AboutMe = () => {
+const AboutMe = ({ language }: { language: string }) => {
   return (
-    <div className="wrapper about-me">
+    <div className="about-me">
       <img className="profile-image" src={profileImage} alt="profile-image" />
       <div className="about-me-text-container">
         <div className="gaz647">gaz647</div>
@@ -16,11 +16,11 @@ const AboutMe = () => {
           Developer
         </div>
         <div className="in-love">
-          in{" "}
+          {language === "en" ? "in" : "s"}{" "}
           <span className="heart">
             <FaHeart />
           </span>{" "}
-          with web apps
+          {language === "en" ? "with web apps" : "k webovým aplikacím"}
         </div>
       </div>
     </div>

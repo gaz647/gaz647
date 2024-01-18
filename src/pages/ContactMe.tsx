@@ -1,11 +1,11 @@
 import ContactForm from "../components/ContactForm";
 import "./ContactMe.css";
 
-const ContactMe = () => {
+const ContactMe = ({ language }: { language: string }) => {
   return (
-    <div className="wrapper contact-me">
+    <div className="contact-me">
       <div className="contact-form-container">
-        <ContactForm />
+        <ContactForm language={language} />
       </div>
     </div>
   );

@@ -2,7 +2,7 @@ import "./TechStack.css";
 
 const TechStack = () => {
   return (
-    <div className="wrapper tech-stack">
+    <div className="tech-stack">
       <div className="tech-stack-item">HTML</div>
       <div className="tech-stack-item">CSS</div>
       <div className="tech-stack-item">TypeScript</div>

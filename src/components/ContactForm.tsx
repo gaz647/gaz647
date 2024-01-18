@@ -1,7 +1,7 @@
 import "./ContactForm.css";
 import { useState } from "react";
 
-const ContactForm = () => {
+const ContactForm = ({ language }: { language: string }) => {
   const [result, setResult] = useState("");
 
   const onSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
@@ -27,15 +27,19 @@ const ContactForm = () => {
   };
   return (
     <div className="contact-form">
-      <h1>Contact Me</h1>
+      <h1>{language === "en" ? "Contact Me" : "Napište mi"}</h1>
       <form onSubmit={onSubmit}>
-        <p>subject</p>
+        <p>{language === "en" ? "subject" : "předmět"}</p>
         <input type="text" name="name" />
         <p>email</p>
         <input type="email" name="email" />
-        <p>message</p>
+        <p>{language === "en" ? "message" : "zpráva"}</p>
         <textarea className="contact-form-text-area" name="message"></textarea>
-        <input type="submit" />
+        <input
+          type="submit"
+          className="contact-form-submit-btn"
+          value={`${language === "en" ? "SUBMIT" : "ODESLAT"}`}
+        />
       </form>
       <span>{result}</span>
     </div>

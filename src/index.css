@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  letter-spacing: 0.01rem;
 }
 
 body {
@@ -10,9 +13,14 @@ body {
   min-height: 100dvh;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 .wrapper {
   width: 1320px;
   max-width: 100%;
   /* padding: 0 0.5rem; */
   margin: 0 auto;
+  overflow-x: hidden;
 }
