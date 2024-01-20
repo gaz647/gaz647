@@ -1,11 +1,11 @@
 .tech-stack {
   position: sticky;
-  z-index: 999;
+  z-index: 997;
   top: -25dvh;
+  min-height: 150dvh;
   padding: 25dvh 0;
   background-color: #12161a;
   width: 100%;
-  min-height: 150dvh;
   display: flex;
   justify-content: center;
   align-content: center;

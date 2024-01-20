@@ -1,7 +1,8 @@
 .contact-me {
-  position: relative;
-  background-color: rgb(241, 63, 18);
+  position: sticky;
+  top: 0;
   z-index: 999;
+  background-color: rgb(241, 63, 18);
   min-height: 100dvh;
   display: flex;
   justify-content: center;

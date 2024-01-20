@@ -2,6 +2,7 @@ import "./Project.css";
 import { v4 as uuidv4 } from "uuid";
 import { VscGithubInverted } from "react-icons/vsc";
 import { FaExternalLinkAlt } from "react-icons/fa";
+import { useInView } from "react-intersection-observer";
 
 interface StackSliderProps {
   stack: string[];
@@ -39,11 +40,19 @@ interface ProjectProps {
 }
 
 const Project: React.FC<ProjectProps> = ({ projectData, language }) => {
+  // const className =
+
+  const { ref, inView } = useInView({
+    triggerOnce: true,
+    threshold: 0.3,
+  });
+
   return (
     <div
+      ref={ref}
       className={`project-container ${
         projectData.position === "left" ? "container-left" : "container-right"
-      }`}
+      } ${inView && `slide-in-${projectData.position}`}`}
     >
       <div className="project-left-container">
         <img

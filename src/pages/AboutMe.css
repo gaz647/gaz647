@@ -1,50 +1,57 @@
 .about-me {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 100dvh;
   position: sticky;
   top: 0;
+  z-index: 996;
+  height: 100dvh;
+  width: 100%;
+  /* background-color: pink; */
+  display: flex;
+  flex-direction: column;
 }
 
-.profile-image {
-  position: absolute;
-  top: 1.5rem;
-  max-height: 80dvh;
-  max-width: 100%;
-  /* overflow: hidden; */
-}
-
-.about-me-text-container {
+.about-me-profile-image-container {
+  position: relative;
   width: 100%;
   height: 100%;
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-image {
+  display: block;
+  max-width: 90%;
+  border: solid 3px rgba(238, 130, 238, 0.164);
+}
+
+.about-me-text-container {
+  position: absolute;
+  bottom: 0;
+  border: solid 3px rgba(0, 255, 0, 0.062);
+  display: flex;
   flex-direction: column;
   justify-content: flex-end;
-
-  /* background-color: blue; */
   color: rgb(238, 238, 238);
-  padding: 0.5rem;
+  padding: 1rem;
   text-shadow: 1px 1px 2px black;
-  z-index: 998;
-  /* border: solid 1px red; */
+}
+
+.about-me-text-item {
+  margin: 0.25rem 0;
 }
 
 .gaz647 {
   font-size: 1.5rem;
-  margin: 0.25rem 0;
-  opacity: 0.7;
+  opacity: 0.9;
 }
 
 .front-end {
   font-size: 1.8rem;
-  margin: 0.25rem 0;
   font-weight: bold;
 }
 
 .in-love {
   font-size: 1.5rem;
-  margin: 0.25rem 0;
 }
 
 .heart {
@@ -52,3 +59,82 @@
   margin: 0 0.25rem;
   font-size: 1.3rem;
 }
+
+.social-container {
+  border: solid 2px white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-container-icon {
+  /* display: block; */
+  font-size: 2rem;
+  vertical-align: text-bottom;
+}
+
+@media (min-width: 710px) {
+  .about-me {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .about-me-profile-image-container {
+    position: relative;
+    width: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-me-text-container {
+    position: relative;
+    width: auto;
+    text-align: end;
+  }
+
+  .about-me-text-item {
+    margin: 1rem 0;
+  }
+
+  .gaz647 {
+    font-size: 2rem;
+    opacity: 0.9;
+  }
+
+  .front-end {
+    font-size: 2.3rem;
+    font-weight: bold;
+  }
+
+  .in-love {
+    font-size: 2rem;
+  }
+
+  .profile-image {
+    right: 1rem;
+  }
+}
+
+/*
+@media (min-width: 800px) {
+  .gaz647 {
+    font-size: 2rem;
+    opacity: 0.9;
+  }
+
+  .front-end {
+    font-size: 2.3rem;
+    font-weight: bold;
+  }
+
+  .in-love {
+    font-size: 2rem;
+  }
+
+  .about-me-text-item {
+    margin: 1.5rem 0;
+  }
+} */

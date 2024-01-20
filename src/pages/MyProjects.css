@@ -1,8 +1,8 @@
 .my-projects {
   position: relative;
+  z-index: 998;
   background-color: rgb(240, 240, 240);
-  z-index: 999;
-  min-height: 150dvh;
+  min-height: 100dvh;
   padding: 25dvh 0;
   display: flex;
   flex-direction: column;

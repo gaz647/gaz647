@@ -1,6 +1,6 @@
 .project-container {
-  width: 100%;
-  max-width: 300px;
+  width: 90%;
+  max-width: 350px;
   display: flex;
   flex-direction: column;
   margin: 3rem 0;
@@ -15,6 +15,41 @@
 
 .project-right-container {
   padding: 1rem;
+}
+
+.container-left,
+.container-right {
+  opacity: 0;
+}
+
+.slide-in-left {
+  animation: slideInLeft 1s ease 0s 1 normal forwards;
+}
+
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.slide-in-right {
+  animation: slideInRight 1s ease 0s 1 normal forwards;
+}
+
+@keyframes slideInRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 
 @media (min-width: 700px) {
