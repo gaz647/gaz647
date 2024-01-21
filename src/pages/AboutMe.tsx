@@ -1,7 +1,7 @@
 import "./AboutMe.css";
 import profileImage from "../images/man-gradient.png";
-import { FaHeart } from "react-icons/fa";
 import { FaLinkedin, FaGithubSquare } from "react-icons/fa";
+import Heart from "../images/heart.svg";
 
 const AboutMe = ({ language }: { language: string }) => {
   return (
@@ -14,7 +14,7 @@ const AboutMe = ({ language }: { language: string }) => {
         <div className="about-me-text-item gaz647">gaz647</div>
         <div className="about-me-text-item front-end">
           Front-End{" "}
-          <span>
+          <span className="front-end-br">
             <br />
           </span>{" "}
           Developer
@@ -22,7 +22,7 @@ const AboutMe = ({ language }: { language: string }) => {
         <div className="about-me-text-item in-love">
           {language === "en" ? "in" : "s"}{" "}
           <span className="heart">
-            <FaHeart />
+            <img className="heart-svg" src={Heart} alt="" />
           </span>{" "}
           {language === "en" ? "with web apps" : "k webovým aplikacím"}
         </div>

@@ -1,15 +1,28 @@
 .tech-stack {
   position: sticky;
   z-index: 997;
-  top: -25dvh;
-  min-height: 150dvh;
-  padding: 25dvh 0;
-  background-color: #12161a;
+  top: 0;
   width: 100%;
+  min-height: 150dvh;
+  padding: 0 0 50dvh 0;
+  background-color: var(--black);
+}
+
+.tech-stack-inner-container {
+  width: 100%;
+  height: 100dvh;
   display: flex;
   justify-content: center;
   align-content: center;
   flex-wrap: wrap;
+  padding: 0 1rem;
+  background: rgb(18, 18, 18);
+  background: linear-gradient(
+    0deg,
+    rgba(18, 18, 18, 1) 0%,
+    rgba(234, 5, 255, 0.15) 50%,
+    rgba(18, 18, 18, 1) 100%
+  );
 }
 
 .tech-stack-item {
