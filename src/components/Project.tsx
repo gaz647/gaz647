@@ -40,8 +40,6 @@ interface ProjectProps {
 }
 
 const Project: React.FC<ProjectProps> = ({ projectData, language }) => {
-  // const className =
-
   const { ref, inView } = useInView({
     triggerOnce: true,
     threshold: 0.3,
