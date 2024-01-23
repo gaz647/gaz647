@@ -10,7 +10,12 @@ const TechStack = () => {
   return (
     <div className="tech-stack">
       <div className="tech-stack-inner-container">
-        <div ref={ref} className={` ${inView && "tech-stack-animation"}`}>
+        <div
+          ref={ref}
+          className={`tech-stack-animation-container ${
+            inView && "tech-stack-animation"
+          }`}
+        >
           <div className="tech-stack-item">HTML</div>
           <div className="tech-stack-item">CSS</div>
           <div className="tech-stack-item">TypeScript</div>

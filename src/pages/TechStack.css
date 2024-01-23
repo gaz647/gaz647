@@ -42,15 +42,22 @@
   font-weight: bold;
 }
 
+.tech-stack-animation-container {
+  opacity: 0;
+}
+
 .tech-stack-animation {
-  animation: slideIn 3s linear forwards;
+  opacity: 0;
+  animation: slideIn 1s 0.3s linear forwards;
 }
 
 @keyframes slideIn {
   0% {
     opacity: 0;
+    scale: 0;
   }
   100% {
     opacity: 1;
+    scale: 1;
   }
 }
