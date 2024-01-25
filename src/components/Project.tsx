@@ -1,29 +1,8 @@
 import "./Project.css";
-// import { v4 as uuidv4 } from "uuid";
 import { VscGithubInverted } from "react-icons/vsc";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { useInView } from "react-intersection-observer";
 import Slider from "./Slider";
-
-// interface StackSliderProps {
-//   stack: string[];
-// }
-
-// const StackSlider: React.FC<StackSliderProps> = ({ stack }) => {
-//   return (
-//     <div className="slider-container">
-//       <div className="slider-slider">
-//         {stack.map((oneStack) => {
-//           return (
-//             <div className="one-stack" key={uuidv4()}>
-//               {oneStack}
-//             </div>
-//           );
-//         })}
-//       </div>
-//     </div>
-//   );
-// };
 
 interface ProjectProps {
   projectData: {
@@ -53,16 +32,16 @@ const Project: React.FC<ProjectProps> = ({ projectData, language }) => {
         projectData.position === "left" ? "container-left" : "container-right"
       } ${inView && `slide-in-${projectData.position}`}`}
     >
-      <div className="project-left-container">
+      <div className="project-image-container">
         <img
           className="project-image"
           src={projectData.image}
           alt="project-image"
         />
       </div>
-      <div className="project-right-container">
+      <div className="project-info-container">
+        <div className="project-name">{projectData.name}</div>
         <div className="project-waka-time-container">
-          <div className="project-name">{projectData.name}</div>
           <img
             className="project-waka-time"
             src={projectData.wakaTimeImage}
@@ -84,8 +63,9 @@ const Project: React.FC<ProjectProps> = ({ projectData, language }) => {
         <div className="project-bio">
           {language === "en" ? projectData.bio_en : projectData.bio_cs}
         </div>
-        {/* <StackSlider stack={projectData.stack} /> */}
-        <Slider stack={projectData.stack} time={40} />
+        <div className="project-stack-container">
+          <Slider stack={projectData.stack} time={40} />
+        </div>
       </div>
     </div>
   );

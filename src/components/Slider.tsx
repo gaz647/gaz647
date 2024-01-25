@@ -19,25 +19,11 @@ const Slider: React.FC<SliderProps> = ({ stack, time }) => {
           {stack.map((oneStack) => {
             return <span key={uuidv4()}>{oneStack}</span>;
           })}
-          {/* <span>Html</span>
-          <span>CSS</span>
-          <span>Typescript</span>
-          <span>React</span>
-          <span>Redux</span>
-          <span>Git</span>
-          <span>Kokot</span> */}
         </div>
         <div className="scroll-stack">
           {stack.map((oneStack) => {
             return <span key={uuidv4()}>{oneStack}</span>;
           })}
-          {/* <span>Html</span>
-          <span>CSS</span>
-          <span>Typescript</span>
-          <span>React</span>
-          <span>Redux</span>
-          <span>Git</span>
-          <span>Kokot</span> */}
         </div>
       </div>
     </div>

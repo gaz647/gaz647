@@ -2,11 +2,16 @@ import "./MyProjects.css";
 import Project from "../components/Project";
 import { v4 as uuidv4 } from "uuid";
 
+import EmtruckImage from "../images/mockup-emtruck-w-800-px.png";
+import TatovaPila from "../images/mockup-tatova-pila-w-800-px.png";
+import BeneetoHours from "../images/mockup-beneeto-hours-w-800-px.png";
+import OktagonSchedule from "../images/mockup-oktagon-schedule-w-800-px.png";
+
 const MyProjects = ({ language }: { language: string }) => {
   const projectsData = [
     {
       name: "emTRUCK",
-      image: "https://picsum.photos/id/8/400/400",
+      image: EmtruckImage,
       bio_en:
         "Logbook web app for truck drivers of a private company (demo account: email: test@gmail.com, password: em24).",
       bio_cs:
@@ -41,7 +46,7 @@ const MyProjects = ({ language }: { language: string }) => {
     },
     {
       name: "Tátova Pila",
-      image: "https://picsum.photos/id/20/400/400",
+      image: TatovaPila,
       bio_en: "Website for woodworking private company.",
       bio_cs: "Webová stránka pro pilařskou firmu.",
       website: "https://tatovapila.cz/",
@@ -68,7 +73,7 @@ const MyProjects = ({ language }: { language: string }) => {
     },
     {
       name: "Beneeto-Hours",
-      image: "https://picsum.photos/id/85/400/400",
+      image: BeneetoHours,
       bio_en: "Working hours time keeping web app.",
       bio_cs: "Webová aplikace pro evidenci pracovních hodin.",
       website: "https://beneeto-hours.netlify.app",
@@ -97,11 +102,11 @@ const MyProjects = ({ language }: { language: string }) => {
     },
     {
       name: "Oktagon Schedule",
-      image: "https://picsum.photos/id/26/400/400",
+      image: OktagonSchedule,
       bio_en: "Schedule of previous and upcoming Oktagon MMA events.",
       bio_cs:
         "Kalendář předchozích a nadcházejících galavečerů organizace Oktagon MMA.",
-      website: "",
+      website: "https://fancy-narwhal-e5080d.netlify.app/",
       github: "",
       wakaTimeImage:
         "https://wakatime.com/badge/user/0042881c-6061-4165-a38d-5958bd6d02bc/project/124c0e6a-9248-4c01-bf48-1c49b325afe3.svg",

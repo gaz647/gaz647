@@ -13,8 +13,9 @@
 
 body {
   background-color: #12161a;
-  font-family: Ubuntu, Roboto, Arial;
+  /* font-family: Ubuntu, Roboto, Arial; */
   min-height: 100dvh;
+  font-family: "Roboto", sans-serif, Ubuntu;
 }
 
 ::-webkit-scrollbar {
