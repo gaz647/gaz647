@@ -27,14 +27,19 @@ const ContactForm = ({ language }: { language: string }) => {
   };
   return (
     <div className="contact-form">
-      <h1>{language === "en" ? "Contact Me" : "Napište mi"}</h1>
+      {/* <div className="contact-form-heading">
+        {language === "en" ? "Contact Me" : "Napište mi"}
+      </div> */}
       <form onSubmit={onSubmit}>
-        <p>{language === "en" ? "subject" : "předmět"}</p>
-        <input type="text" name="name" />
-        <p>email</p>
-        <input type="email" name="email" />
-        <p>{language === "en" ? "message" : "zpráva"}</p>
-        <textarea className="contact-form-text-area" name="message"></textarea>
+        <input type="text" name="name" placeholder="name" />
+
+        <input type="email" name="email" placeholder="email" />
+
+        <textarea
+          className="contact-form-text-area"
+          name="message"
+          placeholder="message"
+        ></textarea>
         <input
           type="submit"
           className="contact-form-submit-btn"

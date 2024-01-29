@@ -1,5 +1,17 @@
 .footer {
   position: relative;
-  background-color: rgb(26, 7, 196);
+  background-color: black;
   z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-item {
+  color: var(--violin-neon);
+  padding: 1.5rem;
+}
+
+.footer-item span {
+  margin: 0 0.5rem;
 }

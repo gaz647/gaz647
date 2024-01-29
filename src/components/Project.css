@@ -4,6 +4,7 @@
   margin: 3rem 0;
   background-color: rgb(248, 248, 248);
   box-shadow: 0px 0px 10px rgb(214, 214, 214);
+  border-radius: 10px;
 }
 
 .project-image-container,
@@ -111,6 +112,8 @@
     margin: 8rem 0;
     justify-content: center;
     z-index: 999;
+
+    border-radius: 20px;
   }
 
   .project-info-container {
@@ -119,7 +122,6 @@
     display: flex;
     flex-direction: column;
     z-index: 999;
-    /* border: solid 2px red; */
   }
 
   .project-image-container {
@@ -172,6 +174,7 @@
     box-shadow: inherit;
     margin-left: -50%;
     z-index: 988;
+    border-radius: 20px;
   }
 
   .container-right::before {
@@ -185,5 +188,6 @@
     box-shadow: inherit;
     margin-right: -50%;
     z-index: 988;
+    border-radius: 20px;
   }
 }

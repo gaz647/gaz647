@@ -9,16 +9,16 @@
 .navbar-language-btn {
   color: rgba(245, 245, 245, 0.445);
   padding: 0.5rem;
-  /* background-color: rgba(255, 0, 0, 0.171); */
   cursor: pointer;
 }
 
 .active-btn {
-  color: whitesmoke;
+  color: var(--violin-neon);
 }
 
 .navbar-language-btns-container {
   display: flex;
+  margin: 0.5rem 0.5rem 0 0;
   visibility: hidden;
 }
 

@@ -1,5 +1,20 @@
 :root {
-  --black: rgb(18, 18, 18);
+  --black: rgb(20, 20, 20);
+  --violin-neon: rgb(234, 5, 255);
+
+  --fs-main-heading: 2rem;
+}
+
+@media (min-width: 400px) {
+  :root {
+    --fs-main-heading: 2.5rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  :root {
+    --fs-main-heading: 3rem;
+  }
 }
 
 * {
@@ -8,7 +23,7 @@
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  letter-spacing: 0.01rem;
+  letter-spacing: 0.05rem;
 }
 
 body {
@@ -16,6 +31,7 @@ body {
   /* font-family: Ubuntu, Roboto, Arial; */
   min-height: 100dvh;
   font-family: "Roboto", sans-serif, Ubuntu;
+  letter-spacing: 0.5rem;
 }
 
 ::-webkit-scrollbar {

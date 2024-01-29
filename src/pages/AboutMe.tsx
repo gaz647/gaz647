@@ -1,6 +1,7 @@
 import "./AboutMe.css";
 import profileImage from "../images/man-gradient.png";
-import { FaLinkedin, FaGithubSquare } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub } from "react-icons/fa";
+
 import Heart from "../images/heart.svg";
 
 const AboutMe = ({ language }: { language: string }) => {
@@ -28,10 +29,10 @@ const AboutMe = ({ language }: { language: string }) => {
         </div>
         <div className="social-container">
           <div className="social-container-icon">
-            <FaLinkedin />
+            <FaLinkedinIn />
           </div>
           <div className="social-container-icon">
-            <FaGithubSquare />
+            <FaGithub />
           </div>
         </div>
       </div>

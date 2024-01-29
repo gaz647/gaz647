@@ -31,7 +31,13 @@
   justify-content: flex-end;
   color: rgb(238, 238, 238);
   padding: 1rem;
+
+  /* border-radius: 20px;
   text-shadow: 1px 1px 2px black;
+  background: rgb(18, 18, 18);
+  -webkit-box-shadow: 10px 10px 24px rgb(7, 7, 7),
+    -10px -10px 24px rgb(29, 29, 29);
+  box-shadow: 10px 10px 24px rgb(7, 7, 7), -10px -10px 24px rgb(29, 29, 29); */
 }
 
 .about-me-text-item {

@@ -14,8 +14,7 @@ const MyProjects = ({ language }: { language: string }) => {
       image: EmtruckImage,
       bio_en:
         "Logbook web app for truck drivers of a private company (demo account: email: test@gmail.com, password: em24).",
-      bio_cs:
-        "Kniha jízd pro řidiče soukromé společnosti (demo účet: email: test@gmail.com, password: em24).",
+      bio_cs: `Kniha jízd pro řidiče soukromé společnosti (demo účet: email: test@gmail.com, password: em24).`,
       website: "https://emtruck.net/",
       github: "",
       wakaTimeImage:
