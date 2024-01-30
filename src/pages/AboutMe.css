@@ -7,6 +7,10 @@
   background-color: var(--black);
 }
 
+.text-shadow {
+  text-shadow: 2px 1px 4px rgb(0, 0, 0);
+}
+
 .about-me-profile-image-container {
   position: relative;
   width: 100%;
@@ -95,9 +99,8 @@
 }
 
 .social-container-icon {
-  /* display: block; */
-  font-size: 2rem;
-  margin: 1rem 0.25rem;
+  font-size: 1.5rem;
+  margin: 1rem 0.5rem;
 }
 
 /* ---------------------------------------------------------------- */
@@ -151,8 +154,8 @@
   }
 
   .social-container-icon {
-    font-size: 2.3rem;
-    margin: 1rem 0.4rem;
+    font-size: 2rem;
+    margin: 1rem 0.5rem;
   }
 
   .profile-image {
@@ -192,15 +195,7 @@
 
   .social-container-icon {
     font-size: 2.5rem;
-    margin: 1rem 0.4rem;
-  }
-}
-
-/* ---------------------------------------------------------------- */
-
-@media (min-width: 900px) {
-  .front-end-br {
-    display: none;
+    margin: 1.5rem 1rem;
   }
 }
 

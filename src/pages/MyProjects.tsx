@@ -1,5 +1,6 @@
 import "./MyProjects.css";
 import Project from "../components/Project";
+import Heading from "../components/Heading";
 import { v4 as uuidv4 } from "uuid";
 
 import EmtruckImage from "../images/mockup-emtruck-w-800-px.png";
@@ -133,11 +134,14 @@ const MyProjects = ({ language }: { language: string }) => {
 
   return (
     <div className="my-projects">
-      <div className="my-projects-heading">
-        {language === "en"
-          ? "Explore my projects"
-          : "Prohlédněte si mé projekty"}
-      </div>
+      <Heading
+        text={
+          language === "en"
+            ? "Explore my projects"
+            : "Prohlédněte si mé projekty"
+        }
+        color={"black"}
+      />
       {projectsData.map((oneProject) => {
         return (
           <Project

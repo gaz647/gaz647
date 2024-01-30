@@ -7,6 +7,22 @@ const TechStack = () => {
     threshold: 0.5,
   });
 
+  const stack = [
+    "HTML",
+    "CSS",
+    "TypeScript",
+    "React",
+    "React-Router",
+    "Redux-Toolkit",
+    "Git",
+    "Firebase",
+    "VScode",
+    "Vite",
+    "Photoshop",
+    "Linux",
+    "macOS",
+  ];
+
   return (
     <div className="tech-stack">
       <div className="tech-stack-inner-container">
@@ -16,19 +32,19 @@ const TechStack = () => {
             inView && "tech-stack-animation"
           }`}
         >
-          <div className="tech-stack-item">HTML</div>
-          <div className="tech-stack-item">CSS</div>
-          <div className="tech-stack-item">TypeScript</div>
-          <div className="tech-stack-item">React</div>
-          <div className="tech-stack-item">React-Router</div>
-          <div className="tech-stack-item">Redux-Toolkit</div>
-          <div className="tech-stack-item">Git</div>
-          <div className="tech-stack-item">Firebase</div>
-          <div className="tech-stack-item">VScode</div>
-          <div className="tech-stack-item">Vite</div>
-          <div className="tech-stack-item">Photoshop</div>
-          <div className="tech-stack-item">Linux</div>
-          <div className="tech-stack-item">macOS</div>
+          {stack.map((oneStack, index) => {
+            let delay = 0.1 * index;
+            delay = delay + 0.5;
+            return (
+              <div
+                className="tech-stack-item"
+                style={{ animation: `scaleStack 1.5s ${delay}s infinite` }}
+                key={index}
+              >
+                {oneStack}
+              </div>
+            );
+          })}
         </div>
       </div>
     </div>

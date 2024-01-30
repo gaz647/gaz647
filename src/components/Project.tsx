@@ -49,16 +49,24 @@ const Project: React.FC<ProjectProps> = ({ projectData, language }) => {
           />
         </div>
         <div className="project-links-container">
-          <a className="project-link" href={projectData.github} target="_blank">
-            <VscGithubInverted />
-          </a>
-          <a
-            className="project-link"
-            href={projectData.website}
-            target="_blank"
-          >
-            <FaExternalLinkAlt />
-          </a>
+          <div className="project-link-container scale-icon">
+            <a
+              className="project-link"
+              href={projectData.github}
+              target="_blank"
+            >
+              <VscGithubInverted />
+            </a>
+          </div>
+          <div className="project-link-container scale-icon">
+            <a
+              className="project-link"
+              href={projectData.website}
+              target="_blank"
+            >
+              <FaExternalLinkAlt />
+            </a>
+          </div>
         </div>
         <div className="project-bio">
           {language === "en" ? projectData.bio_en : projectData.bio_cs}

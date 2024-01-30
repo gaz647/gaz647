@@ -1,8 +1,9 @@
 :root {
-  --black: rgb(20, 20, 20);
+  --black: rgb(10, 10, 10);
   --violin-neon: rgb(234, 5, 255);
 
   --fs-main-heading: 2rem;
+  --heading-margin: 2rem 0 3rem 0;
 }
 
 @media (min-width: 400px) {
@@ -44,4 +45,14 @@ body {
   /* padding: 0 0.5rem; */
   margin: 0 auto;
   overflow-x: hidden;
+}
+
+.scale-icon:hover {
+  animation: scaleIcon linear 0.5s forwards;
+}
+
+@keyframes scaleIcon {
+  100% {
+    transform: scale(1.2);
+  }
 }

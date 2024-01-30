@@ -1,0 +1,6 @@
+.heading {
+  font-size: var(--fs-main-heading);
+  font-weight: 300;
+  text-align: center;
+  margin: var(--heading-margin);
+}

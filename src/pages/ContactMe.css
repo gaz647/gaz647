@@ -1,9 +1,10 @@
 .contact-me {
-  position: sticky;
-  top: 0;
+  position: relative;
+  /* top: 0; */
   z-index: 999;
   min-height: 100dvh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: var(--black);

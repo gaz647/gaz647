@@ -12,15 +12,15 @@ const AboutMe = ({ language }: { language: string }) => {
       </div>
 
       <div className="about-me-text-container">
-        <div className="about-me-text-item gaz647">gaz647</div>
-        <div className="about-me-text-item front-end">
+        <div className="about-me-text-item gaz647 text-shadow">gaz647</div>
+        <div className="about-me-text-item front-end text-shadow">
           Front-End{" "}
           <span className="front-end-br">
             <br />
           </span>{" "}
           Developer
         </div>
-        <div className="about-me-text-item in-love">
+        <div className="about-me-text-item in-love text-shadow">
           {language === "en" ? "in" : "s"}{" "}
           <span className="heart">
             <img className="heart-svg" src={Heart} alt="" />
@@ -28,10 +28,10 @@ const AboutMe = ({ language }: { language: string }) => {
           {language === "en" ? "with web apps" : "k webovým aplikacím"}
         </div>
         <div className="social-container">
-          <div className="social-container-icon">
+          <div className="social-container-icon scale-icon">
             <FaLinkedinIn />
           </div>
-          <div className="social-container-icon">
+          <div className="social-container-icon scale-icon">
             <FaGithub />
           </div>
         </div>

@@ -29,12 +29,27 @@
   color: var(--violin-neon);
   display: inline-block;
   padding: 0.5rem 0.8rem;
-  margin: 1rem;
+  margin: 0.5rem;
   border-radius: 10px;
   font-weight: bold;
   background: rgb(18, 18, 18);
+  border: solid 2px var(--violin-neon);
   -webkit-box-shadow: 0px 0px 10px var(--violin-neon);
   box-shadow: 0px 0px 10px var(--violin-neon);
+  animation: name duration timing-function delay iteration-count direction
+    fill-mode;
+}
+
+@keyframes scaleStack {
+  0% {
+    scale: 1;
+  }
+  50% {
+    scale: 1.05;
+  }
+  100% {
+    scale: 1;
+  }
 }
 
 .tech-stack-animation-container {
