@@ -14,6 +14,7 @@
 
 .active-btn {
   color: var(--violin-neon);
+  font-weight: bold;
 }
 
 .navbar-language-btns-container {

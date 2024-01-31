@@ -50,7 +50,7 @@ const MyProjects = ({ language }: { language: string }) => {
       bio_en: "Website for woodworking private company.",
       bio_cs: "Webová stránka pro pilařskou firmu.",
       website: "https://tatovapila.cz/",
-      github: "",
+      github: "https://github.com/gaz647/tatova-pila_ts",
       wakaTimeImage:
         "https://wakatime.com/badge/user/0042881c-6061-4165-a38d-5958bd6d02bc/project/018c1b57-9fb4-4879-8e56-75f570716b1f.svg",
       stack: [
@@ -77,7 +77,7 @@ const MyProjects = ({ language }: { language: string }) => {
       bio_en: "Working hours time keeping web app.",
       bio_cs: "Webová aplikace pro evidenci pracovních hodin.",
       website: "https://beneeto-hours.netlify.app",
-      github: "",
+      github: "https://github.com/gaz647/beneeto-hours_ts",
       wakaTimeImage:
         "https://wakatime.com/badge/user/0042881c-6061-4165-a38d-5958bd6d02bc/project/bf2c22ad-f6b8-4f77-b86d-e9a72a65905b.svg",
       stack: [
@@ -107,7 +107,7 @@ const MyProjects = ({ language }: { language: string }) => {
       bio_cs:
         "Kalendář předchozích a nadcházejících galavečerů organizace Oktagon MMA.",
       website: "https://fancy-narwhal-e5080d.netlify.app/",
-      github: "",
+      github: "https://github.com/gaz647/oktagon-schedule-ts",
       wakaTimeImage:
         "https://wakatime.com/badge/user/0042881c-6061-4165-a38d-5958bd6d02bc/project/124c0e6a-9248-4c01-bf48-1c49b325afe3.svg",
       stack: [
