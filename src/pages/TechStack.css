@@ -5,7 +5,8 @@
   width: 100%;
   min-height: 150dvh;
   padding: 0 0 50dvh 0;
-  background-color: var(--black);
+  /* background-color: var(--black); */
+  background-color: #000000;
 }
 
 @keyframes myAnim {
@@ -17,6 +18,7 @@
 
 .tech-stack-inner-container {
   background: var(--black);
+  background-color: #000000;
   /* background: linear-gradient(
     0deg,
     var(--black) 0%,

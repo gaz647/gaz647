@@ -6,23 +6,26 @@
   justify-content: flex-end;
 }
 
+.navbar-language-btns-container {
+  display: flex;
+  margin: 0.7rem 0.7rem 0 0;
+  padding: 0.3rem;
+  border-radius: 5px;
+  visibility: hidden;
+}
+
+.navbar-language-btns-container-visible {
+  visibility: visible;
+}
+
 .navbar-language-btn {
   color: rgba(245, 245, 245, 0.445);
-  padding: 0.5rem;
+  padding: 0.3rem 0.5rem;
+
   cursor: pointer;
 }
 
 .active-btn {
   color: var(--violin-neon);
   font-weight: bold;
-}
-
-.navbar-language-btns-container {
-  display: flex;
-  margin: 0.5rem 0.5rem 0 0;
-  visibility: hidden;
-}
-
-.navbar-language-btns-container-visible {
-  visibility: visible;
 }

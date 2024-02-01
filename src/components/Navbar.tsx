@@ -24,7 +24,7 @@ const Navbar = ({
   return (
     <div className="navbar">
       <div
-        className={`navbar-language-btns-container ${
+        className={`navbar-language-btns-container black-container ${
           btnsVisible && "navbar-language-btns-container-visible"
         }`}
       >

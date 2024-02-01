@@ -47,6 +47,14 @@ body {
   overflow-x: hidden;
 }
 
+.black-container {
+  background-color: rgb(8, 8, 8);
+  box-shadow: 0 0 10px rgba(122, 122, 122, 0.404);
+  border: solid 1px rgba(238, 130, 238, 0.03);
+  color: rgb(238, 238, 238);
+  z-index: 999;
+}
+
 .scale-icon:hover {
   animation: scaleIcon linear 0.5s forwards;
 }

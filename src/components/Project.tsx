@@ -22,7 +22,7 @@ interface ProjectProps {
 const Project: React.FC<ProjectProps> = ({ projectData, language }) => {
   const { ref, inView } = useInView({
     triggerOnce: true,
-    threshold: 0.5,
+    threshold: 0.3,
   });
 
   return (
