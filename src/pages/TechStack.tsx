@@ -25,27 +25,25 @@ const TechStack = () => {
 
   return (
     <div className="tech-stack">
-      <div className="tech-stack-inner-container">
-        <div
-          ref={ref}
-          className={`tech-stack-animation-container ${
-            inView && "tech-stack-animation"
-          }`}
-        >
-          {stack.map((oneStack, index) => {
-            let delay = 0.1 * index;
-            delay = delay + 0.5;
-            return (
-              <div
-                className="tech-stack-item"
-                style={{ animation: `scaleStack 1.5s ${delay}s infinite` }}
-                key={index}
-              >
-                {oneStack}
-              </div>
-            );
-          })}
-        </div>
+      <div
+        ref={ref}
+        className={`tech-stack-animation-container ${
+          inView && "tech-stack-animation"
+        }`}
+      >
+        {stack.map((oneStack, index) => {
+          let delay = 0.1 * index;
+          delay = delay + 0.5;
+          return (
+            <div
+              className="tech-stack-item"
+              style={{ animation: `scaleStack 1.5s ${delay}s infinite` }}
+              key={index}
+            >
+              {oneStack}
+            </div>
+          );
+        })}
       </div>
     </div>
   );

@@ -8,6 +8,22 @@ import { GoHeartFill } from "react-icons/go";
 import { IoShareSocialOutline } from "react-icons/io5";
 
 const AboutMe = ({ language }: { language: string }) => {
+  const stack = [
+    "HTML",
+    "CSS",
+    "TypeScript",
+    "React",
+    "React-Router",
+    "Redux-Toolkit",
+    "Git",
+    "Firebase",
+    "VScode",
+    "Vite",
+    "Photoshop",
+    "Linux",
+    "macOS",
+  ];
+
   return (
     <div className="about-me">
       <div className="black-container about-me-container">
@@ -40,12 +56,13 @@ const AboutMe = ({ language }: { language: string }) => {
             {language === "en" ? "with web apps," : "webové aplikace,"}
           </div>
         </div>
+
         <div className="object-item-container">
           <div className="object-icon-container social-icon">
             <IoShareSocialOutline />
             <span className="semi-colon">:</span>
           </div>
-          <div className="social-icon-container">
+          <div className="social-icon-container object-key-value">
             <div className="social-icon-container-icon">
               <FaLinkedinIn />
             </div>
@@ -54,6 +71,7 @@ const AboutMe = ({ language }: { language: string }) => {
             </div>
           </div>
         </div>
+
         <div className="object-item start-and-end-of-object">{`}`}</div>
       </div>
     </div>

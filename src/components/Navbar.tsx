@@ -1,5 +1,5 @@
-import { useEffect, useState } from "react";
 import "./Navbar.css";
+import { useEffect, useState } from "react";
 
 const Navbar = ({
   language,
@@ -14,6 +14,10 @@ const Navbar = ({
   const handleOnLanguageChange = (value: string) => {
     onLanguageChange(value);
     setBtnActive(value);
+
+    console.log(value);
+
+    document.documentElement.lang = value;
   };
 
   useEffect(() => {

@@ -2,6 +2,7 @@ import "./ContactForm.css";
 import { useEffect, useState } from "react";
 import { useTypewriter } from "react-simple-typewriter";
 import { v4 as uuidv4 } from "uuid";
+import Arrow from "../images/1548413370.svg";
 
 const ContactForm = ({ language }: { language: string }) => {
   const [name, setName] = useState<string>("");
@@ -12,7 +13,7 @@ const ContactForm = ({ language }: { language: string }) => {
   const [userSubmitCode, setUserSubmitCode] = useState<string>("");
 
   const generateCode = () => {
-    setSubmitCode(uuidv4().substring(0, 8));
+    setSubmitCode(uuidv4().substring(0, 6));
   };
 
   useEffect(() => {
@@ -73,10 +74,25 @@ const ContactForm = ({ language }: { language: string }) => {
       }
     }
   };
+
+  const [isFormReady, setIsFormReady] = useState<boolean>(false);
+
+  useEffect(() => {
+    if (
+      name &&
+      email &&
+      message &&
+      userSubmitCode &&
+      submitCode === userSubmitCode
+    ) {
+      setIsFormReady(true);
+    }
+  }, [email, message, name, submitCode, userSubmitCode]);
   return (
-    <div className="contact-form">
+    <div className="contact-form black-container">
       <form onSubmit={onSubmit}>
         <input
+          className="contact-form-input"
           type="text"
           name="name"
           placeholder={language === "en" ? "Name" : "Jméno"}
@@ -85,6 +101,7 @@ const ContactForm = ({ language }: { language: string }) => {
         />
 
         <input
+          className="contact-form-input"
           type="email"
           name="Email"
           placeholder="Email"
@@ -108,6 +125,7 @@ const ContactForm = ({ language }: { language: string }) => {
         </div>
 
         <input
+          className="contact-form-input"
           type="text"
           placeholder={
             language === "en"
@@ -117,11 +135,21 @@ const ContactForm = ({ language }: { language: string }) => {
           value={userSubmitCode}
           onChange={(e) => setUserSubmitCode(e.target.value)}
         />
-        <input
-          type="submit"
-          className="contact-form-submit-btn"
-          value={`${language === "en" ? "SUBMIT" : "ODESLAT"}`}
-        />
+        <div className="contact-form-submit-container">
+          <img
+            className={`contact-form-arrow ${
+              isFormReady && "contact-form-arrow-visible"
+            }`}
+            src={Arrow}
+          />
+          <input
+            type="submit"
+            className={`contact-form-input contact-form-submit-btn ${
+              isFormReady && "contact-form-submit-btn-enabled"
+            }`}
+            value={`${language === "en" ? "SUBMIT" : "ODESLAT"}`}
+          />
+        </div>
       </form>
       <span>{result}</span>
     </div>

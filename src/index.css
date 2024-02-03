@@ -1,5 +1,12 @@
+@import "@fontsource/roboto/100.css";
+@import "@fontsource/roboto/300.css";
+@import "@fontsource/roboto/400.css";
+@import "@fontsource/roboto/500.css";
+@import "@fontsource/roboto/700.css";
+@import "@fontsource/roboto/900.css";
+
 :root {
-  --black: rgb(10, 10, 10);
+  --black: #000000;
   --violin-neon: rgb(234, 5, 255);
 
   --fs-main-heading: 2rem;
@@ -28,8 +35,7 @@
 }
 
 body {
-  background-color: #12161a;
-  /* font-family: Ubuntu, Roboto, Arial; */
+  background-color: var(--black);
   min-height: 100dvh;
   font-family: "Roboto", sans-serif, Ubuntu;
   letter-spacing: 0.5rem;
