@@ -6,6 +6,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+  padding: 4rem 0;
   background-image: radial-gradient(
     rgba(250, 250, 250, 0.25) 1px,
     transparent 1px
@@ -13,7 +14,7 @@
   background-size: 30px 30px;
 }
 
-.about-me-container {
+.about-me-object-container {
   max-width: 90%;
   border-radius: 20px;
 
@@ -104,4 +105,17 @@
 /* ---------------------------------------------------------------- */
 
 @media (min-width: 1500px) {
+}
+
+/* -------------------------TECH STACK----------------------------- */
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    scale: 0;
+  }
+  100% {
+    opacity: 1;
+    scale: 1;
+  }
 }

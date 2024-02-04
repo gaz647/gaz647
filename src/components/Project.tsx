@@ -19,6 +19,20 @@ interface ProjectProps {
   language: string;
 }
 
+const sliderStyle = {
+  width: "100%",
+  maxWidth: "900px",
+  oneStack: {
+    backgroundColor: "inherit",
+    margin: "0.8rem",
+    padding: "0.4rem 0.7rem",
+    border: "solid 2px whitesmoke",
+    borderRadius: "5px",
+    color: "rgb(51, 51, 51)",
+    boxShadow: "0px 0px 10px rgb(214, 214, 214)",
+  },
+};
+
 const Project: React.FC<ProjectProps> = ({ projectData, language }) => {
   const { ref, inView } = useInView({
     triggerOnce: true,
@@ -72,7 +86,7 @@ const Project: React.FC<ProjectProps> = ({ projectData, language }) => {
           {language === "en" ? projectData.bio_en : projectData.bio_cs}
         </div>
         <div className="project-stack-container">
-          <Slider stack={projectData.stack} time={40} />
+          <Slider stack={projectData.stack} time={40} style={sliderStyle} />
         </div>
       </div>
     </div>
