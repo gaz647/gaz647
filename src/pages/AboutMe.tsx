@@ -88,11 +88,23 @@ const AboutMe = ({ language }: { language: string }) => {
             <span className="semi-colon">:</span>
           </div>
           <div className="social-icon-container object-key-value">
-            <div className="social-icon-container-icon">
-              <FaLinkedinIn />
+            <div className="social-icon-container-icon scale-icon">
+              <a
+                className="social-icon"
+                href="https://www.linkedin.com/in/gaz647/"
+                target="_blank"
+              >
+                <FaLinkedinIn />
+              </a>
             </div>
-            <div className="social-icon-container-icon">
-              <FaGithub />
+            <div className="social-icon-container-icon scale-icon">
+              <a
+                className="social-icon"
+                href="https://github.com/gaz647"
+                target="_blank"
+              >
+                <FaGithub />
+              </a>
             </div>
           </div>
         </div>

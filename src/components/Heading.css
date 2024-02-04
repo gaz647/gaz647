@@ -2,5 +2,11 @@
   font-size: var(--fs-main-heading);
   font-weight: 300;
   text-align: center;
-  margin: var(--heading-margin);
+  margin: 3rem 0;
+}
+
+@media (min-width: 1000px) {
+  .heading {
+    margin: 8rem 0;
+  }
 }

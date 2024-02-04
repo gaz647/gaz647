@@ -1,12 +1,13 @@
 .contact-me {
   position: relative;
-  /* top: 0; */
   z-index: 999;
   min-height: 100dvh;
+  min-height: calc(100dvh - 4rem);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
   background-color: var(--black);
   background-image: radial-gradient(
     rgba(250, 250, 250, 0.25) 1px,
@@ -21,11 +22,6 @@
   font-weight: 300;
   text-align: center;
   margin-bottom: 5rem;
-}
-
-.contact-me-inner-container {
-  width: 100%;
-  height: 100%;
 }
 
 .contact-form-container {

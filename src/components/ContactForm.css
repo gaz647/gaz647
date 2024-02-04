@@ -102,12 +102,8 @@
 
 .contact-form-submit-btn-enabled {
   background-color: whitesmoke;
-  color: whitesmoke;
+  color: black;
   cursor: pointer;
-}
-
-.contact-form-submit-btn-enabled:hover {
-  font-weight: bold;
 }
 
 .contact-form input::placeholder,
