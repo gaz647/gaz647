@@ -5,6 +5,7 @@ import { v4 as uuidv4 } from "uuid";
 
 import EmtruckImage from "../images/mockup-emtruck-w-800-px.png";
 import TatovaPila from "../images/mockup-tatova-pila-w-800-px.png";
+import gaz647 from "../images/mockup-gaz647-w-800-px.png";
 import BeneetoHours from "../images/mockup-beneeto-hours-w-800-px.png";
 import OktagonSchedule from "../images/mockup-oktagon-schedule-w-800-px.png";
 
@@ -73,7 +74,7 @@ const MyProjects = ({ language }: { language: string }) => {
     },
     {
       name: "gaz647",
-      image: TatovaPila,
+      image: gaz647,
       bio_en: "Personal Web.",
       bio_cs: "Osobní Web.",
       website: "https://gaz647.net/",
