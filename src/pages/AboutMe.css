@@ -14,8 +14,14 @@
   background-size: 30px 30px;
 }
 
+.about-me-inner-container {
+  height: 100%;
+  width: 100%;
+}
+
 .about-me-object-container {
-  max-width: 90%;
+  width: 90%;
+  max-width: 600px;
   border-radius: 20px;
 
   display: flex;
@@ -25,11 +31,12 @@
   padding: 1rem;
 
   color: whitesmoke;
+
+  font-size: clamp(1.3rem, 4vw, 2.25rem);
 }
 
 .object-item-container {
   width: 100%;
-  /* margin: 0.5rem 0; */
   padding-left: 0.5rem;
   display: flex;
   justify-content: space-between;
@@ -40,16 +47,21 @@
   width: 100%;
   text-align: left;
   padding: 0.5rem 0;
+  font-size: clamp(1rem, 4vw, 1.5rem);
 }
 
 .object-icon-container {
   display: flex;
   margin-right: 0.5rem;
-  font-size: clamp(1rem, 4vw, 1.5rem);
+  font-size: clamp(1.2rem, 4vw, 1.7rem);
 }
 
 .card-icon {
   color: rgb(211, 163, 105);
+}
+
+.work-icon {
+  color: gold;
 }
 
 .code-icon {
@@ -71,12 +83,17 @@
 
 .object-key-value {
   width: 100%;
-  font-weight: 600;
+  padding: 0 0.5em;
+  margin: 0.6em 0;
+
   text-align: center;
   font-size: clamp(1.3rem, 4vw, 2.25rem);
-  padding: 0 0.5em;
-  margin: 0.45em 0;
   letter-spacing: 1.5px;
+  font-weight: 400;
+}
+
+.gaz647 {
+  font-weight: 400;
 }
 
 .social-icon-container {
@@ -91,8 +108,16 @@
   margin: 0 0.3em;
 }
 
-.social-icon {
+.social-icon-a {
   color: inherit;
+}
+
+.object-slider-container {
+  width: 80%;
+
+  /* border: solid 1px red; */
+  display: block;
+  margin: 0.6em auto;
 }
 
 /* ---------------------------------------------------------------- */

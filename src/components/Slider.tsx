@@ -6,15 +6,17 @@ interface SliderProps {
   time: number;
   style?: {
     width: string;
-    maxWidth: string;
+    maxWidth?: string;
     oneStack: {
       backgroundColor: string;
-      margin: string;
-      padding: string;
       border: string;
       borderRadius: string;
-      color: string;
       boxShadow?: string;
+      color: string;
+      fontSize?: string;
+      fontWeight?: string;
+      margin: string;
+      padding: string;
     };
   };
 }
@@ -28,7 +30,10 @@ const Slider: React.FC<SliderProps> = ({ stack, time, style }) => {
   return (
     <div
       className="slider"
-      style={{ width: style?.width, maxWidth: style?.maxWidth }}
+      style={{
+        width: style?.width,
+        maxWidth: style?.maxWidth,
+      }}
     >
       <div className="scroll" style={customStyle}>
         <div className="scroll-stack">
@@ -39,6 +44,8 @@ const Slider: React.FC<SliderProps> = ({ stack, time, style }) => {
                 key={uuidv4()}
                 style={{
                   backgroundColor: style?.oneStack.backgroundColor,
+                  fontSize: style?.oneStack.fontSize,
+                  fontWeight: style?.oneStack.fontWeight,
                   margin: style?.oneStack.margin,
                   padding: style?.oneStack.padding,
                   border: style?.oneStack.border,
@@ -60,6 +67,8 @@ const Slider: React.FC<SliderProps> = ({ stack, time, style }) => {
                 key={uuidv4()}
                 style={{
                   backgroundColor: style?.oneStack.backgroundColor,
+                  fontSize: style?.oneStack.fontSize,
+                  fontWeight: style?.oneStack.fontWeight,
                   margin: style?.oneStack.margin,
                   padding: style?.oneStack.padding,
                   border: style?.oneStack.border,

@@ -1,9 +1,11 @@
 import "./AboutMe.css";
+import { BsPersonVcard } from "react-icons/bs";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
-import { FaAddressCard } from "react-icons/fa";
-import { FaCode } from "react-icons/fa";
-import { GoHeartFill } from "react-icons/go";
+import { PiSuitcaseThin, PiHeartLight } from "react-icons/pi";
+
 import { IoShareSocialOutline } from "react-icons/io5";
+import { BsCodeSlash } from "react-icons/bs";
+
 import Slider from "../components/Slider";
 
 const AboutMe = ({ language }: { language: string }) => {
@@ -21,31 +23,20 @@ const AboutMe = ({ language }: { language: string }) => {
     "Photoshop",
     "Linux",
     "macOS",
-    "HTML",
-    "CSS",
-    "TypeScript",
-    "React",
-    "React-Router",
-    "Redux-Toolkit",
-    "Git",
-    "Firebase",
-    "VScode",
-    "Vite",
-    "Photoshop",
-    "Linux",
-    "macOS",
   ];
 
-  const sliderStyle = {
+  const sliderStyle2 = {
     width: "100%",
-    maxWidth: "900px",
+    fontSize: "1rem",
     oneStack: {
-      backgroundColor: "#000000",
-      margin: "0.5rem",
-      padding: "0.5rem 0.8rem",
-      border: "solid 2px whitesmoke",
-      borderRadius: "10px",
+      backgroundColor: "inherit",
+      border: "solid 1px whitesmoke",
+      borderRadius: "5px",
+      fontSize: "1rem",
+      fontWeight: "bold",
       color: "whitesmoke",
+      margin: "0 0.5rem",
+      padding: "0.2rem 0.5rem",
     },
   };
 
@@ -56,29 +47,29 @@ const AboutMe = ({ language }: { language: string }) => {
 
         <div className="object-item-container">
           <div className="object-icon-container card-icon">
-            <FaAddressCard />
+            <BsPersonVcard />
             <span className="semi-colon">:</span>
           </div>
-          <div className="object-key-value">gaz647,</div>
+          <div className="object-key-value gaz647">gaz647</div>
         </div>
 
         <div className="object-item-container">
-          <div className="object-icon-container code-icon">
-            <FaCode />
+          <div className="object-icon-container work-icon">
+            <PiSuitcaseThin />
             <span className="semi-colon">:</span>
           </div>
           <div className="object-key-value">
-            {language === "en" ? "Front-End Developer," : "Front-End vývojář,"}
+            {language === "en" ? "Front-End Developer" : "Front-End vývojář"}
           </div>
         </div>
 
         <div className="object-item-container">
           <div className="object-icon-container heart-icon">
-            <GoHeartFill />
+            <PiHeartLight />
             <span className="semi-colon">:</span>
           </div>
           <div className="object-key-value">
-            {language === "en" ? "with web apps," : "webové aplikace,"}
+            {language === "en" ? "with web apps" : "webové aplikace"}
           </div>
         </div>
 
@@ -90,7 +81,7 @@ const AboutMe = ({ language }: { language: string }) => {
           <div className="social-icon-container object-key-value">
             <div className="social-icon-container-icon scale-icon">
               <a
-                className="social-icon"
+                className="social-icon-a"
                 href="https://www.linkedin.com/in/gaz647/"
                 target="_blank"
               >
@@ -99,7 +90,7 @@ const AboutMe = ({ language }: { language: string }) => {
             </div>
             <div className="social-icon-container-icon scale-icon">
               <a
-                className="social-icon"
+                className="social-icon-a"
                 href="https://github.com/gaz647"
                 target="_blank"
               >
@@ -109,10 +100,18 @@ const AboutMe = ({ language }: { language: string }) => {
           </div>
         </div>
 
+        <div className="object-item-container">
+          <div className="object-icon-container code-icon">
+            <BsCodeSlash />
+            <span className="semi-colon">:</span>
+          </div>
+          <div className="object-slider-container">
+            <Slider stack={stack} time={25} style={sliderStyle2} />
+          </div>
+        </div>
+
         <div className="object-item start-and-end-of-object">{`}`}</div>
       </div>
-      {/* TECH STACK */}
-      <Slider stack={stack} time={50} style={sliderStyle} />
     </div>
   );
 };

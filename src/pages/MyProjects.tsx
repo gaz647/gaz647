@@ -72,6 +72,29 @@ const MyProjects = ({ language }: { language: string }) => {
       position: "right",
     },
     {
+      name: "gaz647",
+      image: TatovaPila,
+      bio_en: "Personal Web.",
+      bio_cs: "Osobní Web.",
+      website: "https://gaz647.net/",
+      github: "https://github.com/gaz647/gaz647",
+      wakaTimeImage:
+        "https://wakatime.com/badge/user/0042881c-6061-4165-a38d-5958bd6d02bc/project/018cf290-0b79-4c55-bc8a-0d1a7a4b578c.svg",
+      stack: [
+        "HTML",
+        "CSS",
+        "TypeScript",
+        "React",
+        "Vite",
+        "HTML",
+        "CSS",
+        "TypeScript",
+        "React",
+        "Vite",
+      ],
+      position: "left",
+    },
+    {
       name: "Beneeto-Hours",
       image: BeneetoHours,
       bio_en: "Working hours time keeping web app.",
@@ -98,7 +121,7 @@ const MyProjects = ({ language }: { language: string }) => {
         "Moment.js",
         "localStorage",
       ],
-      position: "left",
+      position: "right",
     },
     {
       name: "Oktagon Schedule",
@@ -126,7 +149,7 @@ const MyProjects = ({ language }: { language: string }) => {
         "Firebase",
         "date-fns",
       ],
-      position: "right",
+      position: "left",
     },
   ];
 
