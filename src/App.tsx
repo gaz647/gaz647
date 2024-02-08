@@ -7,6 +7,8 @@ import ContactMe from "./pages/ContactMe";
 import MyProjects from "./pages/MyProjects";
 
 function App() {
+  const clientLanguage = navigator.language;
+
   const [language, setLanguage] = useState("en");
 
   const changeLanguage = (value: string) => {
@@ -16,16 +18,18 @@ function App() {
 
   useEffect(() => {
     const lsLanguage = localStorage.getItem("lng");
-    if (lsLanguage) {
-      if (lsLanguage === "cs") {
-        setLanguage("cs");
-      } else {
-        setLanguage("en");
-      }
+    if (lsLanguage && lsLanguage === "cs") {
+      setLanguage("cs");
+    } else if (lsLanguage && lsLanguage === "en") {
+      setLanguage("en");
+    } else if (!lsLanguage && clientLanguage && clientLanguage === "cs") {
+      setLanguage("cs");
+    } else if (!lsLanguage && clientLanguage && clientLanguage === "en") {
+      setLanguage("en");
     } else {
       setLanguage("en");
     }
-  }, [language]);
+  }, [clientLanguage, language]);
 
   // document.documentElement.lang = "es";
 

@@ -15,8 +15,6 @@ const Navbar = ({
     onLanguageChange(value);
     setBtnActive(value);
 
-    console.log(value);
-
     document.documentElement.lang = value;
   };
 

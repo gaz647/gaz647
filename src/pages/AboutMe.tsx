@@ -23,6 +23,19 @@ const AboutMe = ({ language }: { language: string }) => {
     "Photoshop",
     "Linux",
     "macOS",
+    "HTML",
+    "CSS",
+    "TypeScript",
+    "React",
+    "React-Router",
+    "Redux-Toolkit",
+    "Git",
+    "Firebase",
+    "VScode",
+    "Vite",
+    "Photoshop",
+    "Linux",
+    "macOS",
   ];
 
   const sliderStyle2 = {
@@ -106,7 +119,7 @@ const AboutMe = ({ language }: { language: string }) => {
             <span className="semi-colon">:</span>
           </div>
           <div className="object-slider-container">
-            <Slider stack={stack} time={25} style={sliderStyle2} />
+            <Slider stack={stack} time={50} style={sliderStyle2} />
           </div>
         </div>
 
