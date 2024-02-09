@@ -1,7 +1,7 @@
 import "./Navbar.css";
 import { useEffect, useState } from "react";
-import enFlag from "../images/en.svg";
-import csFlag from "../images/cs.svg";
+import enFlag from "../images/enFlag.svg";
+import csFlag from "../images/csFlag.svg";
 
 const Navbar = ({
   language,
