@@ -15,8 +15,9 @@ const MyProjects = ({ language }: { language: string }) => {
       name: "emTRUCK",
       image: EmtruckImage,
       bio_en:
-        "Logbook web app for truck drivers of a private company (demo account: email: test@gmail.com, password: em24).",
-      bio_cs: `Kniha jízd pro řidiče soukromé společnosti (demo účet: email: test@gmail.com, password: em24).`,
+        "Logbook web app for private company truck drivers (demo account: email: test@gmail.com, password: em24).",
+      bio_cs:
+        "Kniha jízd pro řidiče soukromé společnosti (demo účet: email: test@gmail.com, password: em24).",
       website: "https://emtruck.net/",
       github: "",
       wakaTimeImage:
@@ -48,8 +49,8 @@ const MyProjects = ({ language }: { language: string }) => {
     {
       name: "Tátova Pila",
       image: TatovaPila,
-      bio_en: "Website for woodworking private company.",
-      bio_cs: "Webová stránka pro pilařskou firmu.",
+      bio_en: "Website for woodworking company.",
+      bio_cs: "Webová stránka pro společnost zabývající se zpracováním dřeva.",
       website: "https://tatovapila.cz/",
       github: "https://github.com/gaz647/tatova-pila_ts",
       wakaTimeImage:
@@ -127,9 +128,8 @@ const MyProjects = ({ language }: { language: string }) => {
     {
       name: "Oktagon Schedule",
       image: OktagonSchedule,
-      bio_en: "Schedule of previous and upcoming Oktagon MMA events.",
-      bio_cs:
-        "Kalendář předchozích a nadcházejících galavečerů organizace Oktagon MMA.",
+      bio_en: "Schedule of Oktagon MMA Events.",
+      bio_cs: "Kalendář galavečerů organizace Oktagon MMA.",
       website: "https://fancy-narwhal-e5080d.netlify.app/",
       github: "https://github.com/gaz647/oktagon-schedule-ts",
       wakaTimeImage:
