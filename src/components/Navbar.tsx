@@ -1,5 +1,7 @@
 import "./Navbar.css";
 import { useEffect, useState } from "react";
+import enFlag from "../images/en.svg";
+import csFlag from "../images/cs.svg";
 
 const Navbar = ({
   language,
@@ -14,7 +16,6 @@ const Navbar = ({
   const handleOnLanguageChange = (value: string) => {
     onLanguageChange(value);
     setBtnActive(value);
-
     document.documentElement.lang = value;
   };
 
@@ -26,26 +27,25 @@ const Navbar = ({
   return (
     <div className="navbar">
       <div
-        className={`navbar-language-btns-container black-container ${
-          btnsVisible && "navbar-language-btns-container-visible"
+        className={`navbar-circle-language-btns-container  ${
+          btnsVisible && "navbar-circle-language-btns-container-visible"
         }`}
       >
         <div
-          className={`navbar-language-btn ${
-            btnActive === "en" ? "active-btn" : null
+          className={`circle-language-flag-btn ${
+            btnActive === "cs" ? "inactive-circle-btn" : null
           }`}
           onClick={() => handleOnLanguageChange("en")}
         >
-          EN
+          <img className="flag-svg" src={enFlag} alt="language-button-en" />
         </div>
-
         <div
-          className={`navbar-language-btn ${
-            btnActive === "cs" ? "active-btn" : null
+          className={`circle-language-flag-btn ${
+            btnActive === "en" ? "inactive-circle-btn" : null
           }`}
           onClick={() => handleOnLanguageChange("cs")}
         >
-          CS
+          <img className="flag-svg" src={csFlag} alt="language-button-cs" />
         </div>
       </div>
     </div>

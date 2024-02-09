@@ -6,26 +6,26 @@
   justify-content: flex-end;
 }
 
-.navbar-language-btns-container {
+.navbar-circle-language-btns-container {
   display: flex;
-  margin: 1rem 1.2rem 0 0;
-  padding: 0.3rem;
   border-radius: 5px;
   visibility: hidden;
 }
 
-.navbar-language-btns-container-visible {
+.navbar-circle-language-btns-container-visible {
   visibility: visible;
 }
 
-.navbar-language-btn {
-  color: rgba(245, 245, 245, 0.445);
-  padding: 0.3rem 0.5rem;
-
+.circle-language-flag-btn {
+  margin: 1.25rem 1.25rem 0 0;
   cursor: pointer;
 }
 
-.active-btn {
-  color: whitesmoke;
-  font-weight: bold;
+.flag-svg {
+  width: 30px;
+  height: 30px;
+}
+
+.inactive-circle-btn {
+  filter: grayscale(100%);
 }
