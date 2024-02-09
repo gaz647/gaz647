@@ -34,7 +34,6 @@
 }
 
 body {
-  background-color: var(--black);
   min-height: 100dvh;
   font-family: "Roboto", sans-serif, Ubuntu;
   letter-spacing: 0.5rem;
