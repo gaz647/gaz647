@@ -3,14 +3,24 @@ import { useEffect, useState } from "react";
 import { useTypewriter } from "react-simple-typewriter";
 import { v4 as uuidv4 } from "uuid";
 import Arrow from "../images/1548413370.svg";
+import { SpinnerCircular } from "spinners-react";
+import { ImCheckmark, ImCross } from "react-icons/im";
 
 const ContactForm = ({ language }: { language: string }) => {
+  enum ResultStatus {
+    Success = "success",
+    Failure = "failure",
+    Empty = "",
+  }
+
   const [name, setName] = useState<string>("");
   const [email, setEmail] = useState<string>("");
   const [message, setMessage] = useState<string>("");
   const [submitCode, setSubmitCode] = useState<string>("");
-  const [result, setResult] = useState("");
   const [userSubmitCode, setUserSubmitCode] = useState<string>("");
+
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [result, setResult] = useState<ResultStatus>(ResultStatus.Empty);
 
   const generateCode = () => {
     setSubmitCode(uuidv4().substring(0, 6));
@@ -45,6 +55,7 @@ const ContactForm = ({ language }: { language: string }) => {
 
   const onSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
+    setIsSubmitting(true);
     if (!name || !email || !message || !userSubmitCode) {
       alert("Fill the form up!");
       generateCode();
@@ -54,7 +65,7 @@ const ContactForm = ({ language }: { language: string }) => {
       generateCode();
       return;
     } else {
-      setResult("Sending....");
+      setIsSubmitting(true);
       const formData = new FormData(event.currentTarget);
 
       formData.append(
@@ -68,9 +79,11 @@ const ContactForm = ({ language }: { language: string }) => {
       }).then((res) => res.json());
 
       if (res.success) {
-        setResult(res.message);
+        setResult(ResultStatus.Success);
+        setIsSubmitting(false);
       } else {
-        setResult(res.message);
+        setResult(ResultStatus.Failure);
+        setIsSubmitting(false);
       }
     }
   };
@@ -88,71 +101,116 @@ const ContactForm = ({ language }: { language: string }) => {
       setIsFormReady(true);
     }
   }, [email, message, name, submitCode, userSubmitCode]);
+
+  useEffect(() => {
+    if (result === ResultStatus.Failure) {
+      setTimeout(() => {
+        setResult(ResultStatus.Empty);
+      }, 5000);
+    }
+  }, [ResultStatus.Empty, ResultStatus.Failure, result]);
   return (
-    <div className="contact-form black-container">
-      <form onSubmit={onSubmit}>
-        <input
-          className="contact-form-input"
-          type="text"
-          name="name"
-          placeholder={language === "en" ? "Name" : "Jméno"}
-          value={name}
-          onChange={(e) => setName(e.target.value)}
-        />
-
-        <input
-          className="contact-form-input"
-          type="email"
-          name="Email"
-          placeholder="Email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-        />
-
-        <textarea
-          className="contact-form-text-area"
-          name="message"
-          placeholder={text}
-          value={message}
-          onChange={(e) => setMessage(e.target.value)}
-        ></textarea>
-
-        <div className="anti-copy-container">
-          <div className="submit-code">
-            {language === "en" ? "Confirmation code: " : "Kód pro potvrzení:"}{" "}
-            <span>{submitCode}</span>
+    <>
+      {isSubmitting ? (
+        <div className="progress-container">
+          <SpinnerCircular
+            size={90}
+            thickness={180}
+            speed={100}
+            color="#36ad47"
+            secondaryColor="rgba(0, 0, 0, 0.44)"
+          />
+        </div>
+      ) : result !== "" ? (
+        <div className="progress-container">
+          <div className="result-message">
+            {result === ResultStatus.Success
+              ? language === "en"
+                ? "Message sent!"
+                : "Zpráva odeslána!"
+              : language === "en"
+              ? "Sending failed, try again!"
+              : "Odeslání selhalo, zkuste to znovu!"}
           </div>
-        </div>
 
-        <input
-          className="contact-form-input"
-          type="text"
-          placeholder={
-            language === "en"
-              ? "Type the confirmation code"
-              : "Opište kód pro potvrzení"
-          }
-          value={userSubmitCode}
-          onChange={(e) => setUserSubmitCode(e.target.value)}
-        />
-        <div className="contact-form-submit-container">
-          <img
-            className={`contact-form-arrow ${
-              isFormReady && "contact-form-arrow-visible"
-            }`}
-            src={Arrow}
-          />
-          <input
-            type="submit"
-            className={`contact-form-input contact-form-submit-btn ${
-              isFormReady && "contact-form-submit-btn-enabled"
-            }`}
-            value={`${language === "en" ? "SUBMIT" : "ODESLAT"}`}
-          />
+          {result === ResultStatus.Success ? (
+            <div className="result-icon result-icon-success">
+              <ImCheckmark />
+            </div>
+          ) : (
+            <div className="result-icon result-icon-failure">
+              <ImCross />
+            </div>
+          )}
         </div>
-      </form>
-      <span>{result}</span>
-    </div>
+      ) : (
+        <div className="contact-form black-container">
+          <form onSubmit={onSubmit}>
+            <input
+              className="contact-form-input"
+              type="text"
+              name="name"
+              placeholder={language === "en" ? "Name" : "Jméno"}
+              value={name}
+              onChange={(e) => setName(e.target.value)}
+            />
+
+            <input
+              className="contact-form-input"
+              type="email"
+              name="Email"
+              placeholder="Email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+            />
+
+            <textarea
+              className="contact-form-text-area"
+              name="message"
+              placeholder={text}
+              value={message}
+              onChange={(e) => setMessage(e.target.value)}
+            ></textarea>
+
+            <div className="anti-copy-container">
+              <div className="submit-code">
+                {language === "en"
+                  ? "Confirmation code: "
+                  : "Kód pro potvrzení:"}{" "}
+                <span>{submitCode}</span>
+              </div>
+            </div>
+
+            <input
+              className="contact-form-input"
+              type="text"
+              placeholder={
+                language === "en"
+                  ? "Type the confirmation code"
+                  : "Opište kód pro potvrzení"
+              }
+              value={userSubmitCode}
+              onChange={(e) => setUserSubmitCode(e.target.value)}
+            />
+            <div className="contact-form-submit-container">
+              <img
+                className={`contact-form-arrow ${
+                  isFormReady && "contact-form-arrow-visible"
+                }`}
+                src={Arrow}
+              />
+              <input
+                type="submit"
+                className={`contact-form-input contact-form-submit-btn ${
+                  isFormReady && "contact-form-submit-btn-enabled"
+                }`}
+                value={`${language === "en" ? "SUBMIT" : "ODESLAT"}`}
+              />
+            </div>
+          </form>
+        </div>
+      )}
+    </>
   );
 };
 

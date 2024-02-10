@@ -2,6 +2,33 @@
   --border: solid 1px rgba(165, 165, 165, 0.308);
 }
 
+.progress-container {
+  width: 100%;
+  /* border: solid 2px red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.result-message {
+  color: whitesmoke;
+  font-size: 3rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.result-icon {
+  font-size: 3rem;
+}
+
+.result-icon-success {
+  color: greenyellow;
+}
+
+.result-icon-failure {
+  color: red;
+}
+
 .contact-form {
   width: 100%;
   color: whitesmoke;
