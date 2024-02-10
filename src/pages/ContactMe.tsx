@@ -85,6 +85,7 @@ const ContactMe = ({ language }: { language: string }) => {
       } else {
         setResult(ResultStatus.Failure);
         setIsSubmitting(false);
+        console.log(res.error);
       }
     }
   };
