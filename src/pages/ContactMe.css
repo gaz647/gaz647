@@ -168,6 +168,7 @@
 .contact-form input::placeholder,
 .contact-form-text-area::placeholder {
   color: whitesmoke;
+  font-family: "Roboto", sans-serif, Ubuntu;
 }
 
 .contact-form input:focus {

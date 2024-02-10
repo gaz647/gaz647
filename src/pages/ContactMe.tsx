@@ -14,6 +14,7 @@ const ContactMe = ({ language }: { language: string }) => {
     Empty = "",
   }
 
+  const [isFocused, setIsFocused] = useState<boolean>(false);
   const [name, setName] = useState<string>("");
   const [email, setEmail] = useState<string>("");
   const [message, setMessage] = useState<string>("");
@@ -166,6 +167,7 @@ const ContactMe = ({ language }: { language: string }) => {
                   placeholder={language === "en" ? "Name" : "Jméno"}
                   value={name}
                   onChange={(e) => setName(e.target.value)}
+                  onClick={() => setIsFocused(true)}
                 />
 
                 <input
@@ -175,12 +177,21 @@ const ContactMe = ({ language }: { language: string }) => {
                   placeholder="Email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
+                  onClick={() => setIsFocused(true)}
                 />
 
                 <textarea
                   className="contact-form-text-area"
                   name="message"
-                  placeholder={text}
+                  placeholder={
+                    !isFocused
+                      ? text
+                      : isFocused && language === "en"
+                      ? "Message"
+                      : isFocused && language === "cs"
+                      ? "Zpráva"
+                      : ""
+                  }
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
                 ></textarea>
@@ -204,6 +215,7 @@ const ContactMe = ({ language }: { language: string }) => {
                   }
                   value={userSubmitCode}
                   onChange={(e) => setUserSubmitCode(e.target.value)}
+                  onClick={() => setIsFocused(true)}
                 />
                 <div className="contact-form-submit-container">
                   <img
