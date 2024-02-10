@@ -86,7 +86,7 @@ const Project: React.FC<ProjectProps> = ({ projectData, language }) => {
           {language === "en" ? projectData.bio_en : projectData.bio_cs}
         </div>
         <div className="project-stack-container">
-          <Slider stack={projectData.stack} time={40} style={sliderStyle} />
+          <Slider stack={projectData.stack} speed={2} style={sliderStyle} />
         </div>
       </div>
     </div>

@@ -121,7 +121,7 @@ const AboutMe = ({ language }: { language: string }) => {
             <span className="semi-colon">:</span>
           </div>
           <div className="object-slider-container">
-            <Slider stack={stack} time={50} style={sliderStyle2} />
+            <Slider stack={stack} speed={2} style={sliderStyle2} />
           </div>
         </div>
 

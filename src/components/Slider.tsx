@@ -3,7 +3,7 @@ import { v4 as uuidv4 } from "uuid";
 
 interface SliderProps {
   stack: string[];
-  time: number;
+  speed: number;
   style?: {
     width: string;
     maxWidth?: string;
@@ -21,9 +21,9 @@ interface SliderProps {
   };
 }
 
-const Slider: React.FC<SliderProps> = ({ stack, time, style }) => {
+const Slider: React.FC<SliderProps> = ({ stack, speed, style }) => {
   const customStyle = {
-    "--t": `${time.toString()}s`,
+    "--t": `${(stack.length * speed).toString()}s`,
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
   } as any;
 
