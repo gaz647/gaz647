@@ -37,7 +37,13 @@ const Navbar = ({
           }`}
           onClick={() => handleOnLanguageChange("en")}
         >
-          <img className="flag-svg" src={enFlag} alt="language-button-en" />
+          <img
+            className={`flag-svg ${
+              btnActive === "en" ? "flag-svg-active" : null
+            }`}
+            src={enFlag}
+            alt="language-button-en"
+          />
         </div>
         <div
           className={`circle-language-flag-btn ${
@@ -45,7 +51,13 @@ const Navbar = ({
           }`}
           onClick={() => handleOnLanguageChange("cs")}
         >
-          <img className="flag-svg" src={csFlag} alt="language-button-cs" />
+          <img
+            className={`flag-svg ${
+              btnActive === "cs" ? "flag-svg-active" : null
+            }`}
+            src={csFlag}
+            alt="language-button-cs"
+          />
         </div>
       </div>
     </div>

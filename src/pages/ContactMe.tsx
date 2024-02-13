@@ -209,9 +209,7 @@ const ContactMe = ({ language }: { language: string }) => {
                   className="contact-form-input"
                   type="text"
                   placeholder={
-                    language === "en"
-                      ? "Type the confirmation code"
-                      : "Opište kód pro potvrzení"
+                    language === "en" ? "Type the code" : "Opište kód"
                   }
                   value={userSubmitCode}
                   onChange={(e) => setUserSubmitCode(e.target.value)}

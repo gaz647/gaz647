@@ -8,6 +8,7 @@
 
 .navbar-circle-language-btns-container {
   display: flex;
+  align-items: center;
   border-radius: 5px;
   visibility: hidden;
 }
@@ -22,8 +23,13 @@
 }
 
 .flag-svg {
-  width: 30px;
-  height: 30px;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.flag-svg-active {
+  width: 1.7rem;
+  height: 1.7rem;
 }
 
 .inactive-circle-btn {
