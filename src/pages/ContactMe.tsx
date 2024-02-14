@@ -179,6 +179,8 @@ const ContactMe = ({ language }: { language: string }) => {
                   value={name}
                   onChange={(e) => setName(e.target.value)}
                   onClick={() => setIsFocused(true)}
+                  autoComplete="name"
+                  id="name"
                 />
 
                 <input
@@ -187,8 +189,10 @@ const ContactMe = ({ language }: { language: string }) => {
                   name="Email"
                   placeholder="Email"
                   value={email}
+                  autoComplete="email"
                   onChange={(e) => setEmail(e.target.value)}
                   onClick={() => setIsFocused(true)}
+                  id="email"
                 />
 
                 <textarea
@@ -205,6 +209,7 @@ const ContactMe = ({ language }: { language: string }) => {
                   }
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
+                  id="message"
                 ></textarea>
 
                 <div className="anti-copy-container">
@@ -225,6 +230,7 @@ const ContactMe = ({ language }: { language: string }) => {
                   value={userSubmitCode}
                   onChange={(e) => setUserSubmitCode(e.target.value)}
                   onClick={() => setIsFocused(true)}
+                  id="confirmation-code"
                 />
                 <div className="contact-form-submit-container">
                   <img
