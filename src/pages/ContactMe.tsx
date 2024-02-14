@@ -2,6 +2,7 @@ import "./ContactMe.css";
 import Heading from "../components/Heading";
 import { useEffect, useState } from "react";
 import { useTypewriter } from "react-simple-typewriter";
+import { useInView } from "react-intersection-observer";
 import { v4 as uuidv4 } from "uuid";
 import Arrow from "../images/1548413370.svg";
 import { SpinnerCircular } from "spinners-react";
@@ -13,6 +14,11 @@ const ContactMe = ({ language }: { language: string }) => {
     Failure = "failure",
     Empty = "",
   }
+
+  const { ref, inView } = useInView({
+    triggerOnce: true,
+    threshold: 0.5,
+  });
 
   const [isFocused, setIsFocused] = useState<boolean>(false);
   const [name, setName] = useState<string>("");
@@ -158,7 +164,12 @@ const ContactMe = ({ language }: { language: string }) => {
               text={language === "en" ? "Contact Me" : "Napište mi"}
               color={"whitesmoke"}
             />
-            <div className="contact-form black-container">
+            <div
+              ref={ref}
+              className={`contact-form black-container ${
+                inView && "slide-from-bottom"
+              }`}
+            >
               <form onSubmit={onSubmit}>
                 <input
                   className="contact-form-input"

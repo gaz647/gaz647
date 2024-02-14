@@ -11,6 +11,17 @@
   align-items: center;
   border-radius: 5px;
   visibility: hidden;
+  transform: translateX(200%);
+  animation: slideFromRight 0.5s 0.7s linear forwards;
+}
+
+@keyframes slideFromRight {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
 }
 
 .navbar-circle-language-btns-container-visible {

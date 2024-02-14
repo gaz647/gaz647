@@ -36,7 +36,7 @@ const sliderStyle = {
 const Project: React.FC<ProjectProps> = ({ projectData, language }) => {
   const { ref, inView } = useInView({
     triggerOnce: true,
-    threshold: 0.3,
+    threshold: 0.5,
   });
 
   return (

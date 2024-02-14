@@ -15,10 +15,10 @@
   background-size: 30px 30px;
 }
 
-.about-me-inner-container {
+/* .about-me-inner-container {
   height: 100%;
   width: 100%;
-}
+} */
 
 .about-me-object-container {
   width: 90%;
@@ -34,6 +34,17 @@
   color: whitesmoke;
 
   font-size: clamp(1.3rem, 4vw, 2.25rem);
+  transform: translateY(-200%);
+  animation: slideFromTop 0.5s 0.25s linear forwards;
+}
+
+@keyframes slideFromTop {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
 }
 
 .object-item-container {
