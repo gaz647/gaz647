@@ -31,8 +31,6 @@ function App() {
     }
   }, [clientLanguage, language]);
 
-  // document.documentElement.lang = "es";
-
   return (
     <div className="app">
       <Navbar
