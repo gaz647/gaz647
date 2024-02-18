@@ -28,7 +28,7 @@
 
 <br>
 
-[![wakatime](https://wakatime.com/badge/github/gaz647/gaz647.svg)](https://wakatime.com/badge/github/gaz647/gaz647)
+[![wakatime](https://wakatime.com/badge/github/gaz647/emTRUCK_VUE.svg)](https://wakatime.com/badge/github/gaz647/emTRUCK_VUE)
 
 <br>
 <br>
