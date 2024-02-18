@@ -28,7 +28,7 @@
 
 <br>
 
-[![wakatime](https://wakatime.com/badge/user/0042881c-6061-4165-a38d-5958bd6d02bc/project/018cf290-0b79-4c55-bc8a-0d1a7a4b578c.svg)](https://wakatime.com/badge/user/0042881c-6061-4165-a38d-5958bd6d02bc/project/018cf290-0b79-4c55-bc8a-0d1a7a4b578c)
+[![wakatime](https://wakatime.com/badge/github/gaz647/gaz647.svg)](https://wakatime.com/badge/github/gaz647/gaz647)
 
 <br>
 <br>
