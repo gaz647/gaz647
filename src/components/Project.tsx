@@ -1,4 +1,6 @@
 import "./Project.css";
+import { SiReact } from "react-icons/si";
+import { IoLogoVue } from "react-icons/io5";
 import { VscGithubInverted } from "react-icons/vsc";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { useInView } from "react-intersection-observer";
@@ -14,6 +16,7 @@ interface ProjectProps {
     github: string;
     wakaTimeImage: string;
     stack: string[];
+    logo: string;
     position: string;
   };
   language: string;
@@ -54,6 +57,17 @@ const Project: React.FC<ProjectProps> = ({ projectData, language }) => {
         />
       </div>
       <div className="project-info-container">
+        <div className="project-logo-container">
+          {projectData.logo === "vue" ? (
+            <div className="project-logo-vue">
+              <IoLogoVue />
+            </div>
+          ) : (
+            <div className="project-logo-react">
+              <SiReact />
+            </div>
+          )}
+        </div>
         <div className="project-name">{projectData.name}</div>
         <div className="project-waka-time-container">
           <img
