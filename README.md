@@ -48,6 +48,12 @@
 <a href="https://github.com/gaz647/emTRUCK" target="_blank">githbub</a>
 <br>
 <a href="https://emtruck.net/" target="_blank">emtruck.net</a>
+<br>
+<br>
+<br>
+<br>
+
+<!--  -->
 
 <img alt="tátova pila" src="src/images/mockup-tatova-pila-w-800-px.png" />
 <br>
@@ -62,6 +68,12 @@
 <a href="https://github.com/gaz647/tatova-pila_ts" target="_blank">repo</a>
 <br>
 <a href="https://tatovapila.cz/" target="_blank">url</a>
+<br>
+<br>
+<br>
+<br>
+
+<!--  -->
 
 <img alt="gaz647" src="src/images/mockup-gaz647-w-800-px.png" />
 <br>
@@ -77,6 +89,11 @@
 <br>
 <a href="https://gaz647.net/" target="_blank">url</a>
 <br>
+<br>
+<br>
+<br>
+
+<!--  -->
 
 <img alt="beneeto hours" src="src/images/mockup-beneeto-hours-w-800-px.png" />
 <br>
@@ -92,6 +109,11 @@
 <br>
 <a href="https://beneeto-hours.netlify.app" target="_blank">url</a>
 <br>
+<br>
+<br>
+<br>
+
+<!--  -->
 
 <img alt="oktagon schedule" src="src/images/mockup-oktagon-schedule-w-800-px.png" />
 <br>
@@ -107,6 +129,11 @@
 <br>
 <a href="https://fancy-narwhal-e5080d.netlify.app/" target="_blank">url</a>
 <br>
+<br>
+<br>
+<br>
+
+<!--  -->
 
 <img alt="emtruck-v2.0" src="src/images/mockup-emtruck-v1.0-w-800-px.png" />
 <br>
