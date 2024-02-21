@@ -4,18 +4,18 @@
 <a href="https://gaz647.net/" style="display:block; font-size: 1.5rem; padding: 3rem; cursor: pointer;">www.gaz647.net</a>
 <a href="mailto:info@gaz647.net?subject=Message%20via%20profile%20on%20Github" style="display:block; font-size: 1.5rem; padding: 3rem; cursor: pointer;">info@gaz647.net</a>
 
-<img alt="HTML5" width="50px" style="margin: .5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
-<img alt="CSS3" width="50px" style="margin: .5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
-<img alt="TypeScript" width="50px" style="margin: .5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" />
-<img alt="React" width="50px" style="margin: .5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
-<img alt="React-Router" width="50px" style="margin: .5rem; background-color: rgb(220, 220, 220); border-radius: 5px; padding: 0 .4rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactrouter/reactrouter-original.svg" />
-<img alt="Redux" width="50px" style="margin: .5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg" />
-<img alt="Firebase" width="50px" style="margin: .5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg" />
-<img alt="Vite" width="50px" style="margin: .5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" />
-<img alt="Netlify" width="50px" style="margin: .5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/netlify/netlify-original.svg" />
-<img alt="Photoshop" width="50px" style="margin: .5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/photoshop/photoshop-original.svg" />
-<img alt="Linux" width="50px" style="margin: .5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" />
-<img alt="Apple" width="35px" style="margin: .5rem; background-color: rgb(234, 220, 234); border-radius: 5px; padding: 0 .5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apple/apple-original.svg" />
+<img align="left" alt="HTML5" width="50px" style="margin: .5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
+<img align="left" alt="CSS3" width="50px" style="margin: .5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
+<img align="left" alt="TypeScript" width="50px" style="margin: .5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" />
+<img align="left" alt="React" width="50px" style="margin: .5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
+<img align="left" alt="React-Router" width="50px" style="margin: .5rem; background-color: rgb(220, 220, 220); border-radius: 5px; padding: 0 .4rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactrouter/reactrouter-original.svg" />
+<img align="left" alt="Redux" width="50px" style="margin: .5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg" />
+<img align="left" alt="Firebase" width="50px" style="margin: .5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg" />
+<img align="left" alt="Vite" width="50px" style="margin: .5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" />
+<img align="left" alt="Netlify" width="50px" style="margin: .5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/netlify/netlify-original.svg" />
+<img align="left" alt="Photoshop" width="50px" style="margin: .5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/photoshop/photoshop-original.svg" />
+<img align="left" alt="Linux" width="50px" style="margin: .5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" />
+<img align="left" alt="Apple" width="35px" style="margin: .5rem; background-color: rgb(234, 220, 234); border-radius: 5px; padding: 0 .5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apple/apple-original.svg" />
 
 <br>
 <br>
