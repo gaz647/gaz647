@@ -2,6 +2,7 @@
 # Front-End Developer
 
 <a href="https://gaz647.net/" style="display:block; font-size: 1.5rem; padding: 3rem; cursor: pointer;">www.gaz647.net</a>
+<br>
 <a href="mailto:info@gaz647.net?subject=Message%20via%20profile%20on%20Github" style="display:block; font-size: 1.5rem; padding: 3rem; cursor: pointer;">info@gaz647.net</a>
 
 <img align="left" alt="HTML5" width="50px" style="margin: .5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
