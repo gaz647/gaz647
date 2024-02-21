@@ -41,11 +41,10 @@
 
 <img alt="emtruck-v2.0 wakatime badge" src="https://wakatime.com/badge/user/0042881c-6061-4165-a38d-5958bd6d02bc/project/1a883016-572f-4180-8581-73d1b8c50428.svg"/>
 
-<a href="https://github.com/gaz647/emTRUCK" target="_blank">githbub</a>
+[github](https://github.com/gaz647/emTRUCK)
 
-<a href="https://emtruck.net/" target="_blank">emtruck.net</a>
-<br>
-<br>
+[emtruck.net](https://emtruck.net/)
+
 <br>
 <br>
 
@@ -56,12 +55,13 @@
 ## Tátova Pila
 
 <img alt="React" width="25px" style="margin: .5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
-<br>
+
 <img alt="tátova pila wakatime badge" src="https://wakatime.com/badge/user/0042881c-6061-4165-a38d-5958bd6d02bc/project/018c1b57-9fb4-4879-8e56-75f570716b1f.svg"/>
-<br>
-<a href="https://github.com/gaz647/tatova-pila_ts" target="_blank">repo</a>
-<br>
-<a href="https://tatovapila.cz/" target="_blank">url</a>
+
+[github](https://github.com/gaz647/tatova-pila_ts)
+
+[tatovapila.cz](https://tatovapila.cz/)
+
 <br>
 <br>
 
@@ -75,9 +75,10 @@
 
 <img alt="gaz647 wakatime badge" src="https://wakatime.com/badge/user/0042881c-6061-4165-a38d-5958bd6d02bc/project/018cf290-0b79-4c55-bc8a-0d1a7a4b578c.svg"/>
 
-<a href="https://github.com/gaz647/gaz647" target="_blank">repo</a>
+[github](https://github.com/gaz647/gaz647)
 
-<a href="https://gaz647.net/" target="_blank">url</a>
+[gaz647.net](https://gaz647.net/)
+
 <br>
 <br>
 
@@ -91,11 +92,10 @@
 
 <img alt="beneeto hours wakatime badge" src="https://wakatime.com/badge/user/0042881c-6061-4165-a38d-5958bd6d02bc/project/bf2c22ad-f6b8-4f77-b86d-e9a72a65905b.svg"/>
 
-<a href="https://github.com/gaz647/beneeto-hours_ts" target="_blank">repo</a>
+[github](https://github.com/gaz647/beneeto-hours_ts)
 
-<a href="https://beneeto-hours.netlify.app" target="_blank">url</a>
-<br>
-<br>
+[beneeto-hours.netlify.app](https://beneeto-hours.netlify.app)
+
 <br>
 <br>
 
@@ -109,11 +109,10 @@
 
 <img alt="oktagon schedule wakatime badge" src="https://wakatime.com/badge/user/0042881c-6061-4165-a38d-5958bd6d02bc/project/124c0e6a-9248-4c01-bf48-1c49b325afe3.svg"/>
 
-<a href="https://github.com/gaz647/oktagon-schedule-ts" target="_blank">repo</a>
+[github](https://github.com/gaz647/oktagon-schedule-ts)
 
-<a href="https://fancy-narwhal-e5080d.netlify.app/" target="_blank">url</a>
-<br>
-<br>
+[fancy-narwhal-e5080d.netlify.app](https://fancy-narwhal-e5080d.netlify.app/)
+
 <br>
 <br>
 
@@ -127,6 +126,7 @@
 
 <img alt="emtruck-v2.0 wakatime badge" src="https://wakatime.com/badge/user/0042881c-6061-4165-a38d-5958bd6d02bc/project/925b101f-155e-4ecb-ada0-5c21ec73df5e.svg"/>
 
-<a href="https://github.com/gaz647/emTRUCK_VUE" target="_blank">repo</a>
+<a href="" target="_blank">url</a>
+[github](https://github.com/gaz647/emTRUCK_VUE)
 
-<a href="https://emtruck-v1.netlify.app/" target="_blank">url</a>
+[emtruck-v1.netlify.app](https://emtruck-v1.netlify.app/)
