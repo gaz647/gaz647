@@ -1,4 +1,6 @@
-<img src="src/images/github-header-image.png">
+## gaz647
+
+# Front-End Developer
 
 <a href="https://gaz647.net/" style="display:block; font-size: 1.5rem; padding: 3rem; cursor: pointer;">www.gaz647.net</a>
 <a href="mailto:info@gaz647.net?subject=Message%20via%20profile%20on%20Github" style="display:block; font-size: 1.5rem; padding: 3rem; cursor: pointer;">info@gaz647.net</a>
@@ -34,7 +36,6 @@ emTruck v2.0
 <a href="https://github.com/gaz647/emTRUCK" target="_blank">githbub</a>
 <br>
 <a href="https://emtruck.net/" target="_blank">emtruck.net</a>
-
 
 <img style="padding: 2rem; max-width: 200px;" src="src/images/mockup-tatova-pila-w-800-px.png" />
 <br>
