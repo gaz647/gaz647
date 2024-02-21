@@ -4,6 +4,10 @@
 <br>
 <br>
 <a href="mailto:info@gaz647.net?subject=Message%20via%20profile%20on%20Github">info@gaz647.net</a>
+<br>
+<br>
+<br>
+<br>
 
 <img align="left" alt="HTML5" width="50px" style="margin: .5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
 <img align="left" alt="CSS3" width="50px" style="margin: .5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
@@ -18,6 +22,8 @@
 <img align="left" alt="Linux" width="50px" style="margin: .5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" />
 <img align="left" alt="Apple" width="35px" style="margin: .5rem; background-color: rgb(234, 220, 234); border-radius: 5px; padding: 0 .5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apple/apple-original.svg" />
 
+<br>
+<br>
 <br>
 <br>
 
