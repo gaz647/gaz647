@@ -37,7 +37,9 @@
 
 <img alt="emtruck-v2.0" src="src/images/mockup-emtruck-v2.0-w-800-px.png" />
 <br>
-emTruck v2.0
+
+## emTruck v2.0
+
 <br>
 <img alt="emtruck-v2.0 wakatime badge" src="https://wakatime.com/badge/user/0042881c-6061-4165-a38d-5958bd6d02bc/project/1a883016-572f-4180-8581-73d1b8c50428.svg"/>
 <br>
@@ -49,7 +51,9 @@ emTruck v2.0
 
 <img alt="tátova pila" src="src/images/mockup-tatova-pila-w-800-px.png" />
 <br>
-Tátova Pila
+
+## Tátova Pila
+
 <br>
 <img alt="tátova pila wakatime badge" src="https://wakatime.com/badge/user/0042881c-6061-4165-a38d-5958bd6d02bc/project/018c1b57-9fb4-4879-8e56-75f570716b1f.svg"/>
 <br>
@@ -61,7 +65,9 @@ Tátova Pila
 
 <img alt="gaz647" src="src/images/mockup-gaz647-w-800-px.png" />
 <br>
-gaz647
+
+## gaz647
+
 <br>
 <img alt="gaz647 wakatime badge" src="https://wakatime.com/badge/user/0042881c-6061-4165-a38d-5958bd6d02bc/project/018cf290-0b79-4c55-bc8a-0d1a7a4b578c.svg"/>
 <br>
@@ -74,7 +80,9 @@ gaz647
 
 <img alt="beneeto hours" src="src/images/mockup-beneeto-hours-w-800-px.png" />
 <br>
-Beneeto Hours
+
+## Beneeto Hours
+
 <br>
 <img alt="beneeto hours wakatime badge" src="https://wakatime.com/badge/user/0042881c-6061-4165-a38d-5958bd6d02bc/project/bf2c22ad-f6b8-4f77-b86d-e9a72a65905b.svg"/>
 <br>
@@ -87,7 +95,9 @@ Beneeto Hours
 
 <img alt="oktagon schedule" src="src/images/mockup-oktagon-schedule-w-800-px.png" />
 <br>
-Oktagon Schedule
+
+## Oktagon Schedule
+
 <br>
 <img alt="oktagon schedule wakatime badge" src="https://wakatime.com/badge/user/0042881c-6061-4165-a38d-5958bd6d02bc/project/124c0e6a-9248-4c01-bf48-1c49b325afe3.svg"/>
 <br>
@@ -100,7 +110,9 @@ Oktagon Schedule
 
 <img alt="emtruck-v2.0" src="src/images/mockup-emtruck-v1.0-w-800-px.png" />
 <br>
-emTruck v1.0
+
+## emTruck v1.0
+
 <br>
 <img alt="emtruck-v2.0 wakatime badge" src="https://wakatime.com/badge/user/0042881c-6061-4165-a38d-5958bd6d02bc/project/925b101f-155e-4ecb-ada0-5c21ec73df5e.svg"/>
 <br>
