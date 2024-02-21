@@ -66,8 +66,6 @@
 <a href="https://tatovapila.cz/" target="_blank">url</a>
 <br>
 <br>
-<br>
-<br>
 
 <!--  -->
 
@@ -82,8 +80,6 @@
 <a href="https://github.com/gaz647/gaz647" target="_blank">repo</a>
 
 <a href="https://gaz647.net/" target="_blank">url</a>
-<br>
-<br>
 <br>
 <br>
 
