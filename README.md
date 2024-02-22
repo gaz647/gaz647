@@ -9,11 +9,15 @@
 <br>
 <br>
 
+<div align="center">
+
 ## 🌍 I'm based in Czechia
 
 ## 🖥️ See my portfolio at [gaz647.net](http://gaz647.net)
 
 ## 📬 You can contact me at [info@gaz647.net](mailto:info@gaz647.net)
+
+</div>
 
 <br>
 <br>
