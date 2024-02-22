@@ -72,6 +72,8 @@
 
 <img alt="emtruck-v2.0 wakatime badge" src="https://wakatime.com/badge/user/0042881c-6061-4165-a38d-5958bd6d02bc/project/1a883016-572f-4180-8581-73d1b8c50428.svg"/>
 
+<br>
+
 [github](https://github.com/gaz647/emTRUCK)
 
 [emtruck.net](https://emtruck.net/)
