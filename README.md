@@ -61,6 +61,7 @@
 
 <br>
 
+<div align="center">
 <img alt="emtruck-v2.0" src="src/images/mockup-emtruck-v2.0-w-800-px.png" />
 
 ## emTruck v2.0
@@ -72,6 +73,8 @@
 [github](https://github.com/gaz647/emTRUCK)
 
 [emtruck.net](https://emtruck.net/)
+
+</div>
 
 <br>
 <br>
