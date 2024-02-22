@@ -5,10 +5,18 @@
 </h1>
 
 <br>
-<a href="https://gaz647.net/">www.gaz647.net</a>
+
+<div align="center">
+    <a href="https://gaz647.net/">www.gaz647.net</a>
+</div>
+
 <br>
 <br>
-<a href="mailto:info@gaz647.net?subject=Message%20via%20profile%20on%20Github">info@gaz647.net</a>
+
+<div align="center">
+    <a href="mailto:info@gaz647.net?subject=Message%20via%20profile%20on%20Github">info@gaz647.net</a>
+</div>
+
 <br>
 <br>
 <br>
