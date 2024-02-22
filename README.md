@@ -62,11 +62,13 @@
 <br>
 
 <div align="center">
-<img alt="emtruck-v2.0" src="src/images/mockup-emtruck-v2.0-w-800-px.png" />
+<img width="250px" alt="emtruck-v2.0" src="src/images/mockup-emtruck-v2.0-w-800-px.png" />
 
 ## emTruck v2.0
 
 <img alt="React" width="25px" style="margin: .5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
+
+<br>
 
 <img alt="emtruck-v2.0 wakatime badge" src="https://wakatime.com/badge/user/0042881c-6061-4165-a38d-5958bd6d02bc/project/1a883016-572f-4180-8581-73d1b8c50428.svg"/>
 
