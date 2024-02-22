@@ -231,7 +231,6 @@
 <br>
 <br>
 
-<a href="" target="_blank">url</a>
 [github](https://github.com/gaz647/emTRUCK_VUE)
 
 [emtruck-v1.netlify.app](https://emtruck-v1.netlify.app/)
