@@ -1,7 +1,6 @@
 <img src="src/images/github-header-image.png">
 <br>
 <br>
-<br>
 
 <h1 align="center">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=2000&pause=1000&color=F7ED18&center=true&random=false&width=600&lines=Welcome+to+my+Github+profile!;V%C3%ADtejte+na+m%C3%A9m+Github+profilu!;Willkommen+auf+meinem+Github-Profil!;%C2%A1Bienvenido+a+mi+perfil+de+Github!" />
@@ -31,14 +30,6 @@
     <img alt="Linux" width="50px" style="padding: 1rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" />
     <img alt="Apple" width="50px" style="padding: 1rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apple/apple-original.svg" />
 </div>
-
-<br>
-
-<!-- <div align="center">
-    <a href="https://skillicons.dev">
-        <img src="https://skillicons.dev/icons?i=html,css,ts,react,redux,firebase,vite,netlify,vscode,photoshop,linux,apple" />
-    </a>
-</div> -->
 
 <br>
 <br>
