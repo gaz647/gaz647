@@ -71,7 +71,8 @@
 <div align="center">
 <img width="250px" alt="emtruck-v2.0" src="src/images/mockup-emtruck-v2.0-w-800-px.png" />
 
-## emTruck v2.0
+<!-- ## emTruck v2.0 -->
+<h3 align="center">emTruck v2.0</h3>
 
 <img alt="React" width="25px" style="margin: .5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
 
