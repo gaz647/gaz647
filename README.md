@@ -32,6 +32,8 @@
     <img align="left" alt="Apple" width="50px" style="padding: 1rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apple/apple-original.svg" />
 </div>
 
+<br>
+
 <div align="center">
     <a href="https://skillicons.dev">
         <img src="https://skillicons.dev/icons?i=html,css,ts,react,redux,firebase,vite,netlify,vscode,photoshop,linux,apple" />
