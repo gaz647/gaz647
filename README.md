@@ -62,8 +62,6 @@
 <br>
 <br>
 
-<!-- # My projects -->
-
 <h1 align="center">My projects</h1>
 
 <br>
@@ -71,7 +69,6 @@
 <div align="center">
 <img width="250px" alt="emtruck-v2.0" src="src/images/mockup-emtruck-v2.0-w-800-px.png" />
 
-<!-- ## emTruck v2.0 -->
 <h3 align="center">emTruck v2.0</h3>
 
 <img alt="React" width="25px" style="margin: .5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
@@ -102,7 +99,7 @@
 <div align="center">
 <img width="250px" alt="tátova pila" src="src/images/mockup-tatova-pila-w-800-px.png" />
 
-## Tátova Pila
+<h3 align="center">Tátova Pila</h3>
 
 <img alt="React" width="25px" style="margin: .5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
 
@@ -132,7 +129,7 @@
 <div align="center">
 <img width="250px" alt="gaz647" src="src/images/mockup-gaz647-w-800-px.png" />
 
-## gaz647
+<h3 align="center">gaz647</h3>
 
 <img alt="React" width="25px" style="margin: .5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
 
@@ -162,7 +159,7 @@
 <div align="center">
 <img width="250px" alt="beneeto hours" src="src/images/mockup-beneeto-hours-w-800-px.png" />
 
-## Beneeto Hours
+<h3 align="center">Beneeto Hours</h3>
 
 <img alt="React" width="25px" style="margin: .5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
 
@@ -192,7 +189,7 @@
 <div align="center">
 <img width="250px" alt="oktagon schedule" src="src/images/mockup-oktagon-schedule-w-800-px.png" />
 
-## Oktagon Schedule
+<h3 align="center">Oktagon Schedule</h3>
 
 <img alt="React" width="25px" style="margin: .5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
 
@@ -222,7 +219,7 @@
 <div align="center">
 <img width="250px" alt="emtruck-v2.0" src="src/images/mockup-emtruck-v1.0-w-800-px.png" />
 
-## emTruck v1.0
+<h3 align="center">emTruck v1.0</h3>
 
 <img alt="React" width="25px" style="margin: .5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
 
