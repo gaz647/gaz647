@@ -62,7 +62,9 @@
 <br>
 <br>
 
-# My projects
+<!-- # My projects -->
+
+<h1 align="center">My projects</h1>
 
 <br>
 
