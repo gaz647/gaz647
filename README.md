@@ -4,6 +4,8 @@
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=2000&pause=1000&color=F7ED18&center=true&random=false&width=600&lines=Welcome+to+my+Github+profile!;V%C3%ADtejte+na+m%C3%A9m+Github+profilu!;Willkommen+auf+meinem+Github-Profil!;%C2%A1Bienvenido+a+mi+perfil+de+Github!" />
 </h1>
 
+<br>
+
 <div align="center">
     <a href="https://gaz647.net/">www.gaz647.net</a>
 </div>
