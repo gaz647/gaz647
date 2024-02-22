@@ -9,16 +9,11 @@
 <br>
 <br>
 
-<div align="center">
-    <a href="https://gaz647.net/">www.gaz647.net</a>
-</div>
+## 🌍 I'm based in Czechia
 
-<br>
-<br>
+## 🖥️ See my portfolio at [gaz647.net](http://gaz647.net)
 
-<div align="center">
-    <a href="mailto:info@gaz647.net?subject=Message%20via%20profile%20on%20Github">info@gaz647.net</a>
-</div>
+## 📬 You can contact me at [info@gaz647.net](mailto:info@gaz647.net)
 
 <br>
 <br>
