@@ -221,7 +221,7 @@
 
 <h3 align="center">emTruck v1.0</h3>
 
-<img alt="React" width="25px" style="margin: .5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
+<img alt="Apple" width="25px" style="padding: 1rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" />
 
 <br>
 <br>
