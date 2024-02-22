@@ -27,6 +27,7 @@
     <img alt="Photoshop" width="50px" style="padding: 1rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/photoshop/photoshop-original.svg" />
     <img alt="Linux" width="50px" style="padding: 1rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" />
     <img alt="Apple" width="50px" style="padding: 1rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apple/apple-original.svg" />
+    <img alt="Apple" width="50px" style="padding: 1rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" />
 </div>
 
 <br>
@@ -34,6 +35,18 @@
 <br>
 <br>
 
+<div align="center">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gaz647&layout=donut" />
+</div>
+
+<br>
+<br>
+
+<div align="center">
+    <img src="https://github-readme-stats.vercel.app/api/wakatime?username=gaz647" />
+</div>
+
+<br>
 <br>
 
 # My projects
