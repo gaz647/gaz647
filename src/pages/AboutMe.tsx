@@ -56,7 +56,7 @@ const AboutMe = ({ language }: { language: string }) => {
   };
 
   return (
-    <div className="about-me">
+    <section className="about-me">
       <div className="black-container about-me-object-container">
         <div className="object-item start-and-end-of-object">{`const me = {`}</div>
 
@@ -127,7 +127,7 @@ const AboutMe = ({ language }: { language: string }) => {
 
         <div className="object-item start-and-end-of-object">{`}`}</div>
       </div>
-    </div>
+    </section>
   );
 };
 

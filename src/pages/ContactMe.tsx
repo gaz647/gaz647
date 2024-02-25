@@ -124,7 +124,7 @@ const ContactMe = ({ language }: { language: string }) => {
   }, [ResultStatus.Empty, ResultStatus.Failure, result]);
 
   return (
-    <div className="contact-me">
+    <section className="contact-me">
       <div className="contact-form-container">
         {isSubmitting ? (
           <div className="progress-container">
@@ -252,7 +252,7 @@ const ContactMe = ({ language }: { language: string }) => {
           </>
         )}
       </div>
-    </div>
+    </section>
   );
 };
 

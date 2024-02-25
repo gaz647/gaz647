@@ -209,7 +209,7 @@ const MyProjects = ({ language }: { language: string }) => {
   console.log();
 
   return (
-    <div className="my-projects">
+    <section className="my-projects">
       <Heading
         text={
           language === "en"
@@ -227,7 +227,7 @@ const MyProjects = ({ language }: { language: string }) => {
           />
         );
       })}
-    </div>
+    </section>
   );
 };
 

@@ -25,8 +25,8 @@ const Navbar = ({
   }, [language, setBtnsVisible]);
 
   return (
-    <div className="navbar">
-      <nav
+    <nav className="navbar">
+      <div
         className={`navbar-circle-language-btns-container  ${
           btnsVisible && "navbar-circle-language-btns-container-visible"
         }`}
@@ -59,8 +59,8 @@ const Navbar = ({
             alt="language-button-cs"
           />
         </div>
-      </nav>
-    </div>
+      </div>
+    </nav>
   );
 };
 
