@@ -26,7 +26,7 @@ const Navbar = ({
 
   return (
     <div className="navbar">
-      <div
+      <nav
         className={`navbar-circle-language-btns-container  ${
           btnsVisible && "navbar-circle-language-btns-container-visible"
         }`}
@@ -59,7 +59,7 @@ const Navbar = ({
             alt="language-button-cs"
           />
         </div>
-      </div>
+      </nav>
     </div>
   );
 };
