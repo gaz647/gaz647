@@ -31,7 +31,7 @@ const Navbar = ({
           btnsVisible && "navbar-circle-language-btns-container-visible"
         }`}
       >
-        <div
+        <button
           className={`circle-language-flag-btn ${
             btnActive === "cs" ? "inactive-circle-btn" : null
           }`}
@@ -44,8 +44,8 @@ const Navbar = ({
             src={enFlag}
             alt="language-button-en"
           />
-        </div>
-        <div
+        </button>
+        <button
           className={`circle-language-flag-btn ${
             btnActive === "en" ? "inactive-circle-btn" : null
           }`}
@@ -58,7 +58,7 @@ const Navbar = ({
             src={csFlag}
             alt="language-button-cs"
           />
-        </div>
+        </button>
       </div>
     </nav>
   );

@@ -43,6 +43,10 @@ body {
   display: none;
 }
 
+button {
+  all: unset;
+}
+
 .wrapper {
   width: 1320px;
   max-width: 100%;
