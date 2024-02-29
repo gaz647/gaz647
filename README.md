@@ -33,7 +33,7 @@
     <img alt="Redux" width="50px" style="padding: 1rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg" />
     <img alt="Firebase" width="50px" style="padding: 1rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg" />
     <img alt="Git" width="50px" style="padding: 1rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />
-    <img alt="Github" width="50px" style="padding: 1rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
+    <img alt="Github" width="50px" style="padding: 1rem" src="./src/images/github-original.png" />
     <img alt="Vite" width="50px" style="padding: 1rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" />
     <img alt="Netlify" width="50px" style="padding: 1rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/netlify/netlify-original.svg" />
     <img alt="Photoshop" width="50px" style="padding: 1rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/photoshop/photoshop-original.svg" />
