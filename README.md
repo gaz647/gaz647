@@ -34,12 +34,13 @@
     <img alt="Firebase" width="50px" style="padding: 1rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg" />
     <img alt="Git" width="50px" style="padding: 1rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />
     <img alt="Github" width="50px" style="padding: 1rem" src="./src/images/github-readme.png" />
+    <img alt="VScode" width="50px" style="padding: 1rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" />
     <img alt="Vite" width="50px" style="padding: 1rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" />
     <img alt="Netlify" width="50px" style="padding: 1rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/netlify/netlify-original.svg" />
+    <img alt="Apple" width="50px" style="padding: 1rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" />
     <img alt="Photoshop" width="50px" style="padding: 1rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/photoshop/photoshop-original.svg" />
     <img alt="Linux" width="50px" style="padding: 1rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" />
     <img alt="Apple" width="50px" style="padding: 1rem" src="./src/images/apple-readme.png" />
-    <img alt="Apple" width="50px" style="padding: 1rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" />
 </div>
 
 <br>
