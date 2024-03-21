@@ -16,6 +16,8 @@ const AboutMe = ({ language }: { language: string }) => {
     "React",
     "React-Router",
     "Redux-Toolkit",
+    "React Native",
+    "Expo",
     "Firebase",
     "Axios",
     "npm",
@@ -34,6 +36,8 @@ const AboutMe = ({ language }: { language: string }) => {
     "React",
     "React-Router",
     "Redux-Toolkit",
+    "React Native",
+    "Expo",
     "Firebase",
     "Axios",
     "npm",
@@ -92,7 +96,9 @@ const AboutMe = ({ language }: { language: string }) => {
             <span className="semi-colon">:</span>
           </div>
           <div className="object-key-value">
-            {language === "en" ? "with web apps" : "webové aplikace"}
+            {language === "en"
+              ? "with web and mobile apps"
+              : "webové a mobilní aplikace"}
           </div>
         </div>
 
