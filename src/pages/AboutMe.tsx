@@ -1,5 +1,5 @@
 import "./AboutMe.css";
-import { BsPersonVcard } from "react-icons/bs";
+import { BsPersonVcard, BsBook } from "react-icons/bs";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { PiSuitcaseThin, PiHeartLight } from "react-icons/pi";
 
@@ -94,6 +94,14 @@ const AboutMe = ({ language }: { language: string }) => {
           <div className="object-key-value">
             {language === "en" ? "with web apps" : "webové aplikace"}
           </div>
+        </div>
+
+        <div className="object-item-container">
+          <div className="object-icon-container book-icon">
+            <BsBook />
+            <span className="semi-colon">:</span>
+          </div>
+          <div className="object-key-value">React Native</div>
         </div>
 
         <div className="object-item-container">
