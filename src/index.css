@@ -33,14 +33,14 @@
   letter-spacing: 0.05rem;
 }
 
+html {
+  scrollbar-width: thin;
+}
+
 body {
   min-height: 100dvh;
   font-family: "Roboto", sans-serif, Ubuntu;
   letter-spacing: 0.5rem;
-}
-
-::-webkit-scrollbar {
-  display: none;
 }
 
 button {
