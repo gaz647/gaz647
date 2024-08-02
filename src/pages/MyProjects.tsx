@@ -4,6 +4,7 @@ import Heading from "../components/Heading";
 import { v4 as uuidv4 } from "uuid";
 
 import EmtruckV2Image from "../images/mockup-emtruck-v2.0-w-800-px.png";
+import Putovka from "../images/mockup-putovka-w-800-px.png";
 import TatovaPila from "../images/mockup-tatova-pila-w-800-px.png";
 import gaz647 from "../images/mockup-gaz647-w-800-px.png";
 import BeneetoHours from "../images/mockup-beneeto-hours-w-800-px.png";
@@ -16,9 +17,9 @@ const MyProjects = ({ language }: { language: string }) => {
       name: "emTRUCK v2.0",
       image: EmtruckV2Image,
       bio_en:
-        "Full-Stack logbook web app for private company truck drivers (demo account: email: test@emtruck.net, password: eMtes*T24).",
+        "Full-Stack logbook web app for private company truck drivers - THE PROJECT HAD TO BE TERMINATED.",
       bio_cs:
-        "Kniha jízd pro řidiče soukromé společnosti (demo účet: email: test@emtruck.net, heslo: eMtes*T24).",
+        "Kniha jízd pro řidiče soukromé společnosti - PROJEKT MUSEL BÝT UKONČEN.",
       website: "https://emtruck.net/",
       github: "https://github.com/gaz647/emTRUCK",
       logo: "react",
@@ -51,6 +52,42 @@ const MyProjects = ({ language }: { language: string }) => {
       position: "left",
     },
     {
+      name: "Puťovka",
+      image: Putovka,
+      bio_en: "Simplified version of emTRUCK v2.0.",
+      bio_cs: "Zjednodušená verze emTRUCK v2.0.",
+      website: "https://putovka.net/",
+      github: "https://github.com/gaz647/putovka.net",
+      logo: "react",
+      wakaTimeImage:
+        "https://wakatime.com/badge/user/0042881c-6061-4165-a38d-5958bd6d02bc/project/3dfeb4b8-4a0d-4c3a-9304-b78526567524.svg",
+      stack: [
+        "HTML",
+        "CSS",
+        "TypeScript",
+        "React",
+        "React Router",
+        "Redux Toolkit",
+        "Firebase",
+        "Axios",
+        "Exchange Rate API",
+        "Vite",
+        "Netlify",
+        "HTML",
+        "CSS",
+        "TypeScript",
+        "React",
+        "React Router",
+        "Redux Toolkit",
+        "Firebase",
+        "Axios",
+        "Exchange Rate API",
+        "Vite",
+        "Netlify",
+      ],
+      position: "right",
+    },
+    {
       name: "Tátova Pila",
       image: TatovaPila,
       bio_en: "Website for woodworking company.",
@@ -78,7 +115,7 @@ const MyProjects = ({ language }: { language: string }) => {
         "Vite",
         "Netlify",
       ],
-      position: "right",
+      position: "left",
     },
     {
       name: "gaz647",
@@ -104,7 +141,7 @@ const MyProjects = ({ language }: { language: string }) => {
         "Vite",
         "Netlify",
       ],
-      position: "left",
+      position: "right",
     },
     {
       name: "Beneeto-Hours",
@@ -136,7 +173,7 @@ const MyProjects = ({ language }: { language: string }) => {
         "Vite",
         "Netlify",
       ],
-      position: "right",
+      position: "left",
     },
     {
       name: "Oktagon Schedule",
@@ -166,7 +203,7 @@ const MyProjects = ({ language }: { language: string }) => {
         "Vite",
         "Netlify",
       ],
-      position: "left",
+      position: "right",
     },
     {
       name: "emTRUCK v1.0",
@@ -202,7 +239,7 @@ const MyProjects = ({ language }: { language: string }) => {
         "Vite",
         "Netlify",
       ],
-      position: "right",
+      position: "left",
     },
   ];
 

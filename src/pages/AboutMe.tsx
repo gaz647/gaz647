@@ -1,5 +1,6 @@
 import "./AboutMe.css";
-import { BsPersonVcard, BsBook } from "react-icons/bs";
+import { BsPersonVcard } from "react-icons/bs";
+// import { BsBook } from "react-icons/bs";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { PiSuitcaseThin, PiHeartLight } from "react-icons/pi";
 
@@ -16,8 +17,8 @@ const AboutMe = ({ language }: { language: string }) => {
     "React",
     "React-Router",
     "Redux-Toolkit",
-    "React Native",
-    "Expo",
+    // "React Native",
+    // "Expo",
     "Firebase",
     "Axios",
     "npm",
@@ -36,8 +37,8 @@ const AboutMe = ({ language }: { language: string }) => {
     "React",
     "React-Router",
     "Redux-Toolkit",
-    "React Native",
-    "Expo",
+    // "React Native",
+    // "Expo",
     "Firebase",
     "Axios",
     "npm",
@@ -96,19 +97,17 @@ const AboutMe = ({ language }: { language: string }) => {
             <span className="semi-colon">:</span>
           </div>
           <div className="object-key-value">
-            {language === "en"
-              ? "with web and mobile apps"
-              : "webové a mobilní aplikace"}
+            {language === "en" ? "with web apps" : "webové aplikace"}
           </div>
         </div>
 
-        <div className="object-item-container">
+        {/* <div className="object-item-container">
           <div className="object-icon-container book-icon">
             <BsBook />
             <span className="semi-colon">:</span>
           </div>
           <div className="object-key-value">React Native</div>
-        </div>
+        </div> */}
 
         <div className="object-item-container">
           <div className="object-icon-container social-icon">
