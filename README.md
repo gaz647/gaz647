@@ -73,7 +73,7 @@
 <div align="center">
 <img width="250px" alt="emtruck-v2.0" src="src/images/mockup-emtruck-v2.0-w-800-px.png" />
 
-<h3 align="center">emTruck v2.0</h3>
+<h3 align="center">emTruck v2.0 (terminated)</h3>
 
 <img alt="React" width="25px" style="margin: .5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
 
@@ -87,7 +87,37 @@
 
 [github](https://github.com/gaz647/emTRUCK)
 
-[emtruck.net](https://emtruck.net/)
+[www.emtruck.net](https://emtruck.net/)
+
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<!--  -->
+
+<div align="center">
+<img width="250px" alt="putovka" src="src/images/mockup-putovka-w-800-px.png" />
+
+<h3 align="center">Puťovka (ex emTruck-v2.0)</h3>
+
+<img alt="React" width="25px" style="margin: .5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
+
+<br>
+<br>
+
+<img alt="putovka wakatime badge" src="https://wakatime.com/badge/user/0042881c-6061-4165-a38d-5958bd6d02bc/project/3dfeb4b8-4a0d-4c3a-9304-b78526567524.svg"/>
+
+<br>
+<br>
+
+[github](https://github.com/gaz647/putovka.net)
+
+[www.putovka.net](https://putovka.net/)
 
 </div>
 
@@ -117,7 +147,7 @@
 
 [github](https://github.com/gaz647/tatova-pila_ts)
 
-[tatovapila.cz](https://tatovapila.cz/)
+[www.tatovapila.cz](https://tatovapila.cz/)
 
 </div>
 
@@ -147,7 +177,7 @@
 
 [github](https://github.com/gaz647/gaz647)
 
-[gaz647.net](https://gaz647.net/)
+[www.gaz647.net](https://gaz647.net/)
 
 </div>
 
@@ -177,7 +207,7 @@
 
 [github](https://github.com/gaz647/beneeto-hours_ts)
 
-[beneeto-hours.netlify.app](https://beneeto-hours.netlify.app)
+[www.beneeto-hours.netlify.app](https://beneeto-hours.netlify.app)
 
 </div>
 
@@ -207,7 +237,7 @@
 
 [github](https://github.com/gaz647/oktagon-schedule-ts)
 
-[fancy-narwhal-e5080d.netlify.app](https://fancy-narwhal-e5080d.netlify.app/)
+[www.fancy-narwhal-e5080d.netlify.app](https://fancy-narwhal-e5080d.netlify.app/)
 
 </div>
 
@@ -237,6 +267,6 @@
 
 [github](https://github.com/gaz647/emTRUCK_VUE)
 
-[emtruck-v1.netlify.app](https://emtruck-v1.netlify.app/)
+[www.emtruck-v1.netlify.app](https://emtruck-v1.netlify.app/)
 
 </div>
