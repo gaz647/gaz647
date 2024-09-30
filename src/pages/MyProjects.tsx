@@ -54,8 +54,10 @@ const MyProjects = ({ language }: { language: string }) => {
     {
       name: "Puťovka",
       image: Putovka,
-      bio_en: "Simplified version of emTRUCK v2.0.",
-      bio_cs: "Zjednodušená verze emTRUCK v2.0.",
+      bio_en:
+        "Simplified version of emTRUCK v2.0. Demo account: demo@putovka.net, Password: put24*test_",
+      bio_cs:
+        "Zjednodušená verze emTRUCK v2.0. Demo účet: demo@putovka.net, Heslo: put24*test_",
       website: "https://putovka.net/",
       github: "https://github.com/gaz647/putovka.net",
       logo: "react",
