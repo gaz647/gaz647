@@ -1,4 +1,5 @@
 import "./Project.css";
+import React from "react";
 import { SiReact } from "react-icons/si";
 import { IoLogoVue } from "react-icons/io5";
 import { VscGithubInverted } from "react-icons/vsc";

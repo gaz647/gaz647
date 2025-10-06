@@ -1,4 +1,5 @@
 import "./ContactMe.css";
+import React from "react";
 import Heading from "../components/Heading";
 import { useEffect, useState } from "react";
 import { useTypewriter } from "react-simple-typewriter";
@@ -238,6 +239,7 @@ const ContactMe = ({ language }: { language: string }) => {
                       isFormReady && "contact-form-arrow-visible"
                     }`}
                     src={Arrow}
+                    alt={""}
                   />
                   <input
                     type="submit"
